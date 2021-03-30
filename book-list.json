@@ -1,0 +1,540 @@
+[{
+    "id": 5230,
+    "novel": "The Invisible Man",
+    "author": "H.G. Wells",
+    "pub": 1897
+},
+{
+    "id": 12573,
+    "novel": "Rock Crystal",
+    "author": "Adalbert Stifter",
+    "pub": 1845
+},
+{
+    "id": 23997,
+    "novel": "Eugene Onegin",
+    "author": "Alexander Pushkin",
+    "pub": 1833
+},
+{
+    "id": 159,
+    "novel": "The Island of Doctor Moreau",
+    "author": "H.G. Wells",
+    "pub": 1896
+},
+{
+    "id": 2638,
+    "novel": "The Idiot",
+    "author": "Fyodor Dostoyevsky",
+    "pub": 1869
+},
+{
+    "id": 8387,
+    "novel": "Hunger",
+    "author": "Knut Hamsun",
+    "pub": 1890
+},
+{
+    "id": 2610,
+    "novel": "The Hunchback of Notre-Dame",
+    "author": "Victor Hugo",
+    "pub": 1831
+},
+{
+    "id": 2009,
+    "novel": "The Origin of Species by Means of Natural Selection",
+    "author": "Charles Darwin",
+    "pub": 1859
+},
+{
+    "id": 583,
+    "novel": "The Woman in White",
+    "author": "Wilkie Collins",
+    "pub": 1859
+},
+{
+    "id": 599,
+    "novel": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "pub": 1848
+},
+{
+    "id": 1322,
+    "novel": "Leaves of Grass",
+    "author": "Walt Whitman",
+    "pub": 1855
+},
+{
+    "id": 164,
+    "novel": "Twenty Thousand Leagues Under the Sea",
+    "author": "Jules Verne",
+    "pub": 1870
+},
+{
+    "id": 103,
+    "novel": "Around the World in Eighty Days",
+    "author": "Jules Verne",
+    "pub": 1873
+},
+{
+    "id": 969,
+    "novel": "The Tenant of Wildfell Hall",
+    "author": "Anne Brontë",
+    "pub": 1848
+},
+{
+    "id": 9182,
+    "novel": "Villette",
+    "author": "Charlotte Brontë",
+    "pub": 1853
+},
+{
+    "id": 1023,
+    "novel": "Bleak House",
+    "author": "Charles Dickens",
+    "pub": 1852
+},
+{
+    "id": 14591,
+    "novel": "Faust, First Part",
+    "author": "Johann Wolfgang von Goethe",
+    "pub": 1808
+},
+{
+    "id": 2148,
+    "novel": "The Works of Edgar Allan Poe, Vol II",
+    "author": "Edgar Allan Poe",
+    "pub": 1843
+},
+{
+    "id": 145,
+    "novel": "Middlemarch",
+    "author": "George Eliot",
+    "pub": 1871
+},
+{
+    "id": 4276,
+    "novel": "North and South",
+    "author": "Elizabeth Gaskell",
+    "pub": 1854
+},
+{
+    "id": 141,
+    "novel": "MANSFIELD PARK",
+    "author": "Jane Austen",
+    "pub": 1814
+},
+{
+    "id": 121,
+    "novel": "Northanger Abbey",
+    "author": "Jane Austen",
+    "pub": 1817
+},
+{
+    "id": 1257,
+    "novel": "The Three Musketeers",
+    "author": "Alexander Dumas",
+    "pub": 1844
+},
+{
+    "id": 110,
+    "novel": "Tess of the d’Urbervilles",
+    "author": "Thomas Hardy",
+    "pub": 1891
+},
+{
+    "id": 2413,
+    "novel": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "pub": 1856
+},
+{
+    "id": 28054,
+    "novel": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "pub": 1880
+},
+{
+    "id": 2554,
+    "novel": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "pub": 1866
+},
+{
+    "id": 84,
+    "novel": "Frankenstein; Or, The Modern Prometheus",
+    "author": "Mary Wollstonecraft Shelley",
+    "pub": 1818
+},
+{
+    "id": 1342,
+    "novel": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "pub": 1813
+},
+{
+    "id": 64317,
+    "novel": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "pub": 1925
+},
+{
+    "id": 11,
+    "novel": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "pub": 1865
+},
+{
+    "id": 1237,
+    "novel": "Père Goriot",
+    "author": "Honoré de Balzac",
+    "pub": 1835
+},
+{
+    "id": 98,
+    "novel": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "pub": 1859
+},
+{
+    "id": 2542,
+    "novel": "A Doll’s House",
+    "author": "Henrik Ibsen",
+    "pub": 1879
+},
+{
+    "id": 5200,
+    "novel": "Metamorphosis",
+    "author": "Franz Kafka",
+    "pub": 1915
+},
+{
+    "id": 844,
+    "novel": "The Importance of Being Earnest",
+    "author": "Oscar Wilde",
+    "pub": 1895
+},
+{
+    "id": 1952,
+    "novel": "The Yellow Wallpaper",
+    "author": "Charlotte Perkins Gilman",
+    "pub": 1892
+},
+{
+    "id": 2701,
+    "novel": "Moby Dick",
+    "author": "Herman Melville",
+    "pub": 1851
+},
+{
+    "id": 25344,
+    "novel": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "pub": 1850
+},
+{
+    "id": 174,
+    "novel": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "pub": 1890
+},
+{
+    "id": 76,
+    "novel": "Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "pub": 1884
+},
+{
+    "id": 1661,
+    "novel": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "pub": 1892
+},
+{
+    "id": 1260,
+    "novel": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "pub": 1847
+},
+{
+    "id": 43,
+    "novel": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+    "author": "Robert Louis Stevenson",
+    "pub": 1886
+},
+{
+    "id": 46,
+    "novel": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "pub": 1843
+},
+{
+    "id": 219,
+    "novel": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "pub": 1899
+},
+{
+    "id": 160,
+    "novel": "The Awakening, and Selected Short Stories",
+    "author": "Kate Chopin",
+    "pub": 1899
+},
+{
+    "id": 1400,
+    "novel": "Great Expectations",
+    "author": "Charles Dickens",
+    "pub": 1861
+},
+{
+    "id": 408,
+    "novel": "The Souls of Black Folk",
+    "author": "W. E. B. Du Bois",
+    "pub": 1903
+},
+{
+    "id": 2852,
+    "novel": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "pub": 1902
+},
+{
+    "id": 345,
+    "novel": "Dracula",
+    "author": "Bram Stoker",
+    "pub": 1897
+},
+{
+    "id": 23,
+    "novel": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "author": "Frederick Douglass",
+    "pub": 1845
+},
+{
+    "id": 205,
+    "novel": "Walden, and On The Duty Of Civil Disobedience",
+    "author": "Henry David Thoreau",
+    "pub": 1854
+},
+{
+    "id": 74,
+    "novel": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "pub": 1876
+},
+{
+    "id": 120,
+    "novel": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "pub": 1883
+},
+{
+    "id": 16,
+    "novel": "Peter Pan",
+    "author": "J. M. Barrie",
+    "pub": 1904
+},
+{
+    "id": 55,
+    "novel": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "pub": 1900
+},
+{
+    "id": 2814,
+    "novel": "Dubliners",
+    "author": "James Joyce",
+    "pub": 1914
+},
+{
+    "id": 2591,
+    "novel": "Grimms' Fairy Tales",
+    "author": "Jacob Grimm and Wilhelm Grimm",
+    "pub": 1812
+},
+{
+    "id": 158,
+    "novel": "Emma",
+    "author": "Jane Austen",
+    "pub": 1815
+},
+{
+    "id": 514,
+    "novel": "Little Women",
+    "author": "Louisa May Alcott",
+    "pub": 1868
+},
+{
+    "id": 4300,
+    "novel": "Ulysses",
+    "author": "James Joyce",
+    "pub": 1922
+},
+{
+    "id": 215,
+    "novel": "The Call of the Wild",
+    "author": "Jack London",
+    "pub": 1903
+},
+{
+    "id": 768,
+    "novel": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "pub": 1847
+},
+{
+    "id": 2600,
+    "novel": "War and Peace",
+    "author": "Leo Tolstoy",
+    "pub": 1867
+},
+{
+    "id": 3825,
+    "novel": "Pygmalion",
+    "author": "Bernard Shaw",
+    "pub": 1912
+},
+{
+    "id": 58585,
+    "novel": "The Prophet",
+    "author": "Kahlil Gibran",
+    "pub": 1923
+},
+{
+    "id": 45,
+    "novel": "Anne of Green Gables",
+    "author": "L. M. Montgomery",
+    "pub": 1908
+},
+{
+    "id": 1184,
+    "novel": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "pub": 1844
+},
+{
+    "id": 203,
+    "novel": "Uncle Tom's Cabin",
+    "author": "Harriet Beecher Stowe",
+    "pub": 1852
+},
+{
+    "id": 36,
+    "novel": "The War of the Worlds",
+    "author": "H. G. Wells",
+    "pub": 1898
+},
+{
+    "id": 135,
+    "novel": "Les Misérables",
+    "author": "Victor Hugo",
+    "pub": 1862
+},
+{
+    "id": 113,
+    "novel": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "pub": 1911
+},
+{
+    "id": 730,
+    "novel": "Oliver Twist",
+    "author": "Charles Dickens",
+    "pub": 1838
+},
+{
+    "id": 2500,
+    "novel": "Siddhartha",
+    "author": "Hermann Hesse",
+    "pub": 1922
+},
+{
+    "id": 140,
+    "novel": "The Jungle",
+    "author": "Upton Sinclair",
+    "pub": 1905
+},
+{
+    "id": 41,
+    "novel": "The Legend of Sleepy Hollow",
+    "author": "Washington Irving",
+    "pub": 1820
+},
+{
+    "id": 236,
+    "novel": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "pub": 1894
+},
+{
+    "id": 1998,
+    "novel": "Thus Spoke Zarathustra",
+    "author": "Friedrich Wilhelm Nietzsche",
+    "pub": 1883
+},
+{
+    "id": 4517,
+    "novel": "Ethan Frome",
+    "author": "Edith Wharton",
+    "pub": 1911
+},
+{
+    "id": 766,
+    "novel": "David Copperfield",
+    "author": "Charles Dickens",
+    "pub": 1849
+},
+{
+    "id": 35,
+    "novel": "The Time Machine",
+    "author": "H. G. Wells",
+    "pub": 1895
+},
+{
+    "id": 161,
+    "novel": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "pub": 1811
+},
+{
+    "id": 1399,
+    "novel": "Anna Karenina",
+    "author": "graf Leo Tolstoy",
+    "pub": 1877
+},
+{
+    "id": 11030,
+    "novel": "Incidents in the Life of a Slave Girl",
+    "author": "Harriet A. Jacobs",
+    "pub": 1861
+},
+{
+    "id": 105,
+    "novel": "Persuasion",
+    "author": "Jane Austen",
+    "pub": 1818
+},
+{
+    "id": 61,
+    "novel": "The Communist Manifesto",
+    "author": "Friedrich Engels and Karl Marx",
+    "pub": 1848
+},
+{
+    "id": 863,
+    "novel": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "pub": 1920
+},
+{
+    "id": 786,
+    "novel": "Hard Times",
+    "author": "Charles Dickens",
+    "pub": 854
+},
+{
+    "id": 4363,
+    "novel": "Beyond Good and Evil",
+    "author": "Friedrich Wilhelm Nietzsche",
+    "pub": 1886
+}]

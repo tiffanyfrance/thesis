@@ -1,0 +1,44 @@
+[
+    {
+        "id": "84",
+        "url": "https://www.gutenberg.org/files/84/84-0.txt",
+        "title": "Frankenstein or, The Modern Prometheus",
+        "author": "Mary Wollstonecraft (Godwin) Shelley",
+        "releaseDate": "31, 1993",
+        "contents": [
+            {
+                "chapter": "Letter 1",
+                "content": "...",
+                "wordCount": 6808,
+                "sentiment": [0.573,0.121,0.306],
+                "emotions": [1.777,11.613,2.398,10.046,11.387,0.345,0.91,2.396],
+                "topics": ["personal_finance"]
+            },
+            {
+                "chapter": "Letter 2",
+                "content": "...",
+                "wordCount": 6808,
+                "sentiment": [0.573,0.121,0.306],
+                "emotions": [1.777,11.613,2.398,10.046,11.387,0.345,0.91,2.396],
+                "topics": ["personal_finance"]
+            }
+        ]
+    },
+    {
+        "id": "1342",
+        "url": "https://www.gutenberg.org/files/1342/1342-0.txt",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "releaseDate": "June, 1998",
+        "contents": [
+            {
+                "chapter": "Chapter 1",
+                "content": "...",
+                "wordCount": 4934,
+                "sentiment": [0.482,0.146,0.372],
+                "emotions": [2.943,9.762,1.456,8.036,5.673,0,1.39,4.918],
+                "topics": []
+            }
+        ]
+    }
+]
