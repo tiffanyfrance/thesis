@@ -1,3 +1,5 @@
+<img src="preview.png" style="width: 100%" />
+
 # Generative Art Book Covers Based on Emotion Detection of Canonical Literature
 
 I’m visualizing emotions in Project Gutenberg novels because I want to show how to use machine learning to create data for generative art with contextual meaning and to uncover embedded patterns within revered works of literature. 
