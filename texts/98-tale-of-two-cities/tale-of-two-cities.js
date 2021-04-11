@@ -137,4 +137,12 @@ Status code: 200 43
 {'status': {'code': '0', 'msg': 'OK', 'credits': '38', 'remaining_credits': '15416'}, 'category_list': [{'code': 'Trust', 'label': 'Trust', 'abs_relevance': '50', 'relevance': '100'}, {'code': 'Sadness', 'label': 'Sadness', 'abs_relevance': '40', 'relevance': '80'}, {'code': 'Anticipation', 'label': 'Anticipation', 'abs_relevance': '39', 'relevance': '78'}, {'code': 'Fear', 'label': 'Fear', 'abs_relevance': '32', 'relevance': '64'}, {'code': 'Joy', 'label': 'Joy', 'abs_relevance': '29', 'relevance': '58'}, {'code': 'Anger', 'label': 'Anger', 'abs_relevance': '18', 'relevance': '36'}, {'code': 'Surprise', 'label': 'Surprise', 'abs_relevance': '14', 'relevance': '28'}, {'code': 'Disgust', 'label': 'Disgust', 'abs_relevance': '12', 'relevance': '24'}]}
 Status code: 200 44
 {'status': {'code': '0', 'msg': 'OK', 'credits': '18', 'remaining_credits': '15398'}, 'category_list': [{'code': 'Trust', 'label': 'Trust', 'abs_relevance': '23', 'relevance': '100'}, {'code': 'Joy', 'label': 'Joy', 'abs_relevance': '16', 'relevance': '70'}, {'code': 'Sadness', 'label': 'Sadness', 'abs_relevance': '16', 'relevance': '70'}, {'code': 'Anticipation', 'label': 'Anticipation', 'abs_relevance': '10', 'relevance': '43'}, {'code': 'Disgust', 'label': 'Disgust', 'abs_relevance': '8', 'relevance': '35'}, {'code': 'Fear', 'label': 'Fear', 'abs_relevance': '7', 'relevance': '30'}, {'code': 'Anger', 'label': 'Anger', 'abs_relevance': '4', 'relevance': '17'}, {'code': 'Surprise', 'label': 'Surprise', 'abs_relevance': '4', 'relevance': '17'}]}
-]
+];
+
+let taleOfTwoCitiesPD = [
+
+];
+
+let taleOfTwoCitiesTA = [
+
+];
