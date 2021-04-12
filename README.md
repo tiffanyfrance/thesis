@@ -1,8 +1,8 @@
 <img src="preview.png" style="width: 100%" />
 
-# Generating Cover Art Using Emotion Detected Labels in Classical Literature
+# Generating Book Cover Art Using Emotion Detected Labels in Classical Literature
 
-## Using various APIs to analyze emotion labels within text
+## Deriving patterns from the emotional landcape of literary texts between 1800-1920
 
 I’m visualizing emotions in Project Gutenberg novels because I want to show how to use machine learning to create data for generative art with contextual meaning and to uncover embedded patterns within revered works of literature. 
 
