@@ -18,7 +18,7 @@ h1 {
   margin-bottom: 30px;
 }
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   padding-top: 60px; 
   padding-bottom: 10px;
   margin-top: 0px; 
@@ -28,7 +28,6 @@ h2 {
   font-family: 'DM Serif Display', serif;
   font-weight: 500;
   font-style: normal;
-  
 }
 h3 {
   margin-top: 0px;
@@ -55,7 +54,7 @@ h3 {
   width: 100%;
 }
 .subcontainer.vertical-center {
-  max-height: calc(100vh - 100px);
+  max-height: calc(100vh - 70px);
   top: calc(50% + 80px);
 }
 .flex-container {

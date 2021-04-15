@@ -1,9 +1,11 @@
 <template>
-    <div class="container white-container">
-        <h2>Makalaka A Bunch o' Junk</h2>
-        <div class="subcontainer vertical-center">
-        </div>
-    </div>
+  <div class="container white-container">
+    <h2>Comparing Two Similiar APIs</h2>
+    <h3>
+      Meaning Cloud and Parallel Dots
+    </h3>
+    <div class="subcontainer vertical-center"></div>
+  </div>
 </template>
 
 <script>

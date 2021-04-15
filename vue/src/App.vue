@@ -2,15 +2,15 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <Hero />
   <Corpus />
+  <Emotion />
   <IBM />
-  <Makalaka />
 </template>
 
 <script>
 import Hero from "./components/Hero.vue";
 import Corpus from "./components/Corpus.vue";
 import IBM from "./components/IBM.vue";
-import Makalaka from "./components/Makalaka.vue";
+import Emotion from "./components/EmotionModels.vue";
 
 export default {
   name: "App",
@@ -18,13 +18,13 @@ export default {
     Hero,
     Corpus,
     IBM,
-    Makalaka
+    Emotion,
   },
   data() {
     return {
-      foo: 0
-    }
-  }
+      foo: 0,
+    };
+  },
 };
 </script>
 
@@ -49,5 +49,4 @@ body {
   // color: #2c3e50;
   margin-top: 0px;
 }
-
 </style>
