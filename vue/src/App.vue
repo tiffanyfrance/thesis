@@ -3,22 +3,46 @@
   <Hero />
   <Corpus />
   <Emotion />
+  <MC />
+  <MCBook />
   <IBM />
+  <IBMBook />
+  <Rainbow />
+  <!-- <Hedonometer /> -->
+  <!-- <HedonometerBook /> -->
+  <LIMBIC />
+  <!-- <SVM /> -->
+  <!-- <APIs /> -->
+  <!-- <TryIt /> -->
+  <!-- <Purchase /> -->
+  <Conclusion /> 
 </template>
 
 <script>
 import Hero from "./components/Hero.vue";
 import Corpus from "./components/Corpus.vue";
+import MC from "./components/MC.vue";
+import MCBook from "./components/MCBook.vue";
 import IBM from "./components/IBM.vue";
+import IBMBook from "./components/IBMBook.vue";
 import Emotion from "./components/EmotionModels.vue";
+import Rainbow from "./components/Rainbow.vue";
+import LIMBIC from "./components/LIMBIC.vue";
+import Conclusion from "./components/Conclusion.vue";
 
 export default {
   name: "App",
   components: {
     Hero,
     Corpus,
+    MC,
+    MCBook,
     IBM,
+    IBMBook,
     Emotion,
+    Rainbow,
+    LIMBIC,
+    Conclusion
   },
   data() {
     return {

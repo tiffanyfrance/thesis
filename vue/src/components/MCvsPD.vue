@@ -1,9 +1,8 @@
 <template>
   <div class="container white-container">
-    <h2>IBM Watson Sentence Level</h2>
+    <h2>Meaning Cloud</h2>
     <h3>
-      IBM Watson Suite Tone Analyzer evaluates emotions based on sentence level,
-      up to the first 100 sentences in a document.
+      Stuff about Meaning Cloud.
     </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="flex-50">
@@ -28,7 +27,7 @@
 
 <script>
 export default {
-  name: "IBM",
+  name: "MC",
   props: {
     msg: String,
   },

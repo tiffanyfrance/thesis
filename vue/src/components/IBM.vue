@@ -1,6 +1,6 @@
 <template>
   <div class="container white-container">
-    <h2>IBM Watson Sentence Level</h2>
+    <h2>Sentence Level (IBM Watson)</h2>
     <h3>
       IBM Watson Suite Tone Analyzer evaluates emotions based on sentence level,
       up to the first 100 sentences in a document.

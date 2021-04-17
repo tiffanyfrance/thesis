@@ -319,9 +319,9 @@ let colors = [
   '#64368f', //purple rgb(100,54,143)
   '#0775ba', //blue rgb(7,117,186) (not used)
   '#00b4df', //lightblue rgb(0,180,191)
-  '#b5dcb7', //green rgb(181,220,183)
+  '#6fc874', //green rgb(181,220,183)
   '#d7e489', //greenyellow rgb(215,228,137) (not used because confident isnt used)
-  '#f8ec2d', //yellow rgb(248,236,45)
+  '#f8ec2d', //yellow rgb(248,236,45) (this yellow might be better eddb58)
   '#ef673c', //orange rgb(239,103,60)
   '#eb3c39', //red rgb(235,60,57)
 ]

@@ -12,57 +12,15 @@ if (app.documents.length > 0) {
   // add text and author (script?)
   // add page num bar at bottom
 
-  // let data = [
-  //   10.36,
-  //   24.08,
-  //   10.83,
-  //   0,
-  //   32.47,
-  //   11.83,
-  //   10.41
-  // ]
-
-  let vals = [
-    { emotion: "analytical", score: 0.10365063537107432 },
-    { emotion: "sadness", score: 0.24080351121249116 },
-    { emotion: "fear", score: 0.1083354660555674 },
-    { emotion: "joy", score: 0.32475324551220797 },
-    { emotion: "tentative", score: 0.11830067944680238 },
-    { emotion: "anger", score: 0.104156462401856 }
+  var vals = [
+    { emotion: "analytical", score: 0.10365063537107432, colors: [100,54,143] },
+    { emotion: "sadness", score: 0.24080351121249116, colors: [0,180,191] },
+    { emotion: "fear", score: 0.1083354660555674, colors: [111,200,116] },
+    // { emotion: "confident", score: 0, colors: [215,228,137] },
+    { emotion: "joy", score: 0.32475324551220797, colors: [248,236,45] },
+    { emotion: "tentative", score: 0.11830067944680238, colors: [239, 103, 60] },
+    { emotion: "anger", score: 0.104156462401856, colors: [235,60,57] }
   ];
-
-  // Create a color for both ends of the gradient
-  [100,54,143]
-
-  var _sadness = new RGBColor(); //lightblue
-  _sadness.red = 0;
-  _sadness.green = 180;
-  _sadness.blue = 191;
-
-  var _fear = new RGBColor(); //dark green
-  _fear.red = 181;
-  _fear.green = 220;
-  _fear.blue = 183;
-
-  var _confident = new RGBColor(); //yellow green
-  _confident.red = 215;
-  _confident.green = 228;
-  _confident.blue = 137;
-
-  var _joy = new RGBColor(); //yellow
-  _joy.red = 248;
-  _joy.green = 236;
-  _joy.blue = 45;
-
-  var _tentative = new RGBColor(); //orange
-  _tentative.red = 239;
-  _tentative.green = 103;
-  _tentative.blue = 60;
-
-  var _anger = new RGBColor(); //red
-  _anger.red = 235;
-  _anger.green = 60;
-  _anger.blue = 57;
 
   // Create a new gradient
   // A new gradient always has 2 stops
@@ -74,17 +32,19 @@ if (app.documents.length > 0) {
     newGradient.gradientStops.add();
   }
 
+  var currentRamp = 0;
+
   // apply data to the virtual gradient
   for (var a = 0; a < vals.length; a++) {
-    let color = new RGBColor();
-    color.red = vals[a].color[0];
-    color.red = vals[a].color[1];
-    color.red = vals[a].color[2];
+    var color = new RGBColor();
+    color.red = vals[a].colors[0];
+    color.green = vals[a].colors[1];
+    color.blue = vals[a].colors[2];
 
-    if (vals[a].score > 0) {
-      newGradient.gradientStops[a].rampPoint = vals[a].score;
-      newGradient.gradientStops[a].color = color;
-    }
+    currentRamp += (vals[a].score * 100);
+
+    newGradient.gradientStops[a].rampPoint = currentRamp;
+    newGradient.gradientStops[a].color = color;
   }
 
   // // Modify the first gradient stop
