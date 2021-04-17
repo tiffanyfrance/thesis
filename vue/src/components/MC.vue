@@ -8,13 +8,17 @@
           <option value="">Alice in Wonderland</option>
         </select>
       </p>
-      <img src="@/assets/svgs/ibm/alice.svg" alt="" />
+      <VariableArea />
+      <!-- <img src="@/assets/svgs/ibm/alice.svg" alt="" /> -->
     </div>
   </div>
 </template>
 
 <script>
+import VariableArea from "./charts/VariableArea.vue";
+
 export default {
+  components: { VariableArea },
   name: "MC",
   props: {
     msg: String,
