@@ -79,6 +79,10 @@ p {
   top: calc(50% + 80px);
   margin: 0 auto;
 }
+.large-screens {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 .flex-container {
   display: flexbox;
   flex-direction: row;

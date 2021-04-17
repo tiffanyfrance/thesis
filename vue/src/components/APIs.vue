@@ -60,10 +60,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.large-screens {
-  max-width: 1400px;
-  margin: 0 auto;
-}
 img {
   max-height: 400px;
 }
