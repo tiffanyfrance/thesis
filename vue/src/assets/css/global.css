@@ -59,6 +59,10 @@ p {
   background-color: white;
   color: #333;
 }
+.lgray-container {
+  background-color: #efefef;
+  color: #333;
+}
 .vertical-center {
   margin: 0 auto;
   text-align: center;

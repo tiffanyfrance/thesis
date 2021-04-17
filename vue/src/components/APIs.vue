@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <h2>Emotion Models</h2>
+  <div class="container lgray-container">
+    <h2>APIs</h2>
     <h3>
       The psychoanalytic field lacks an official consensus on how to categorize
       human emotions, however data scientists often use the schemas based on the
@@ -11,7 +11,7 @@
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
         <div class="flex-50">
-          <h4>Plutchik's Emotion Model</h4>
+          <h4>Enterprise/Propriatary</h4>
           <p class="description">
             Robert Plutchik proposed eight primary emotions:
             <span class="code"
@@ -23,11 +23,11 @@
             intensity within the vertical dimension of the flower cones.
           </p>
           <p>
-            <img src="@/assets/plutchik.svg" alt="Plutchik Wheel of Emotion" />
+            
           </p>
         </div>
         <div class="flex-50">
-          <h4>Wilcox's Wheel of Emotions</h4>
+          <h4>Open Source/Hand Crafted</h4>
           <p class="description">
             The following diagram is a  
             <a target="_blank" 
@@ -41,7 +41,7 @@
             <a target="_blank" href="https://allthefeelz.app/feeling-wheel/">here</a>.
           </p>
           <p>
-            <img src="@/assets/svgs/wheel.svg" alt="Feeling Wheel" />
+            
           </p>
         </div>
       </div>

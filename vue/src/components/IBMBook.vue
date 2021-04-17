@@ -1,5 +1,5 @@
 <template>
-  <div class="container white-container">
+  <div class="container">
     <h2>Book Rendering</h2>
     <h3>
       IBMBook Watson Suite Tone Analyzer evaluates emotions based on sentence level,

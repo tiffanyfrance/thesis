@@ -3,16 +3,18 @@
   <Hero />
   <Corpus />
   <Emotion />
+  <APIs />
   <MC />
   <MCBook />
+  <MCvsPD />
+  <Rainbow />
   <IBM />
   <IBMBook />
-  <Rainbow />
-  <!-- <Hedonometer /> -->
-  <!-- <HedonometerBook /> -->
+  <Hedonometer />
+  <HedonometerBook />
   <LIMBIC />
+  <LIMBICBook />
   <!-- <SVM /> -->
-  <!-- <APIs /> -->
   <!-- <TryIt /> -->
   <!-- <Purchase /> -->
   <Conclusion /> 
@@ -21,13 +23,18 @@
 <script>
 import Hero from "./components/Hero.vue";
 import Corpus from "./components/Corpus.vue";
+import APIs from "./components/APIs.vue";
 import MC from "./components/MC.vue";
 import MCBook from "./components/MCBook.vue";
+import MCvsPD from "./components/MCvsPD.vue";
 import IBM from "./components/IBM.vue";
 import IBMBook from "./components/IBMBook.vue";
 import Emotion from "./components/EmotionModels.vue";
 import Rainbow from "./components/Rainbow.vue";
+import Hedonometer from "./components/Hedonometer.vue";
+import HedonometerBook from "./components/HedonometerBook.vue";
 import LIMBIC from "./components/LIMBIC.vue";
+import LIMBICBook from "./components/LIMBICBook.vue";
 import Conclusion from "./components/Conclusion.vue";
 
 export default {
@@ -35,13 +42,18 @@ export default {
   components: {
     Hero,
     Corpus,
+    APIs,
     MC,
     MCBook,
+    MCvsPD,
     IBM,
     IBMBook,
     Emotion,
     Rainbow,
+    Hedonometer,
+    HedonometerBook,
     LIMBIC,
+    LIMBICBook,
     Conclusion
   },
   data() {

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2>Document Level (IBM Watson)</h2>
+    <h2>IBM Watson Tone Analyzer (Document Level)</h2>
     <h3>Lorem ipsum</h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="flex-50">

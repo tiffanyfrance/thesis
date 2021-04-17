@@ -1,6 +1,6 @@
 <template>
   <div class="container white-container">
-    <h2>Meaning Cloud</h2>
+    <h2>Meaning Cloud vs Parallel Dots</h2>
     <h3>
       Stuff about Meaning Cloud.
     </h3>
@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: "MC",
+  name: "MCvsPD",
   props: {
     msg: String,
   },
