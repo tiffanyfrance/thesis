@@ -8,21 +8,29 @@
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
         <p>
-          <select name="" id="">
-            <option value="">Alice in Wonderland</option>
+          <select v-model="book" name="" id="">
+            <option value="IBM/alice-in-wonderland-TA.json">Alice in Wonderland</option>
+            <option value="IBM/through-the-looking-glass-TA.json">Through the Looking-Glass</option>
           </select>
         </p>
-        <img src="@/assets/svgs/ibm/alice.svg" alt="" />
+        <Stacks :filePath="book" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Stacks from "./charts/Stacks.vue";
 export default {
+  components: { Stacks },
   name: "IBM",
   props: {
     msg: String,
+  },
+  data() {
+    return {
+      book: "IBM/alice-in-wonderland-TA.json",
+    };
   },
 };
 </script>
