@@ -7,13 +7,15 @@
   <MC />
   <MCBook />
   <MCvsPD />
+  <MCvsPDReflection />
   <Rainbow />
+  <RainbowBook />
   <IBM />
   <IBMBook />
   <Hedonometer />
   <HedonometerBook />
-  <LIMBIC />
-  <LIMBICBook />
+  <!-- <LIMBIC />
+  <LIMBICBook /> -->
   <!-- <SVM /> -->
   <!-- <TryIt /> -->
   <!-- <Purchase /> -->
@@ -27,14 +29,16 @@ import APIs from "./components/APIs.vue";
 import MC from "./components/MC.vue";
 import MCBook from "./components/MCBook.vue";
 import MCvsPD from "./components/MCvsPD.vue";
+import MCvsPDReflection from "./components/MCvsPDReflection.vue";
 import IBM from "./components/IBM.vue";
 import IBMBook from "./components/IBMBook.vue";
 import Emotion from "./components/EmotionModels.vue";
 import Rainbow from "./components/Rainbow.vue";
+import RainbowBook from "./components/RainbowBook.vue";
 import Hedonometer from "./components/Hedonometer.vue";
 import HedonometerBook from "./components/HedonometerBook.vue";
-import LIMBIC from "./components/LIMBIC.vue";
-import LIMBICBook from "./components/LIMBICBook.vue";
+// import LIMBIC from "./components/LIMBIC.vue";
+// import LIMBICBook from "./components/LIMBICBook.vue";
 import Conclusion from "./components/Conclusion.vue";
 
 export default {
@@ -46,14 +50,16 @@ export default {
     MC,
     MCBook,
     MCvsPD,
+    MCvsPDReflection,
     IBM,
     IBMBook,
     Emotion,
     Rainbow,
+    RainbowBook,
     Hedonometer,
     HedonometerBook,
-    LIMBIC,
-    LIMBICBook,
+    // LIMBIC,
+    // LIMBICBook,
     Conclusion
   },
   data() {

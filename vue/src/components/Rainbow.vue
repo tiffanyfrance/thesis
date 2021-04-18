@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container lgray-container">
     <h2>IBM Watson Tone Analyzer (Document Level)</h2>
     <h3>Lorem ipsum</h3>
     <div class="subcontainer vertical-center flex-container">
@@ -23,9 +23,13 @@
           </div>
         </div>
       </div>
-      <div class="flex-50 book-cover">
-        <p class="label">Book Cover Rendering</p>
-        <img src="@/assets/rainbow/alice-in-wonderland-rainbow.png" alt="" />
+      <div class="flex-50">
+        <p>
+          CODE EXCERPT HERE
+        </p>
+        <p>
+          CODE EXCERPT HERE ILLUSTRATOR
+        </p>
       </div>
     </div>
   </div>
@@ -44,9 +48,6 @@ export default {
 <style scoped lang="scss">
 img {
   max-height: 620px;
-}
-.book-cover {
-  text-align: left;
 }
 .gradient-group {
   margin: 0 auto;
