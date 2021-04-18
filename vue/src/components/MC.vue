@@ -25,6 +25,7 @@
             <option value="MC/wuthering-heights-simple.csv">
               Wuthering Heights
             </option>
+            <option value="MC/anna-karenina-simple.csv">Anna Karenina</option>
           </select>
         </p>
         <VariableArea :filePath="book" :shuffle="true" />
