@@ -6,20 +6,18 @@
       <div class="large-screens">
         <p class="label">
           Select a title:
-          <select v-model="book" name="" id="">
-            <option value="MC/alice-in-wonderland-simple.csv">
-              Alice in Wonderland
-            </option>
-            <option value="MC/through-the-looking-glass.csv">
+          <select v-model="book">
+            <option value="alice-in-wonderland">Alice in Wonderland</option>
+            <option value="through-the-looking-glass">
               Through the Looking Glass
             </option>
           </select>
         </p>
         <div class="flex-50">
-          <VariableArea :filePath="book" />
+          <VariableArea :filePath="filePaths[book].MC" :shuffle="false" />
         </div>
         <div class="flex-50">
-          <VariableArea :filePath="book" />
+          <VariableArea :filePath="filePaths[book].PD" :shuffle="false" />
         </div>
       </div>
     </div>
@@ -37,7 +35,17 @@ export default {
   },
   data() {
     return {
-      book: "MC/alice-in-wonderland-simple.csv",
+      filePaths: {
+        "alice-in-wonderland": {
+          MC: "MC/alice-in-wonderland-simple.csv",
+          PD: "PD/alice-in-wonderland-PD.csv",
+        },
+        "through-the-looking-glass": {
+          MC: "MC/through-the-looking-glass.csv",
+          PD: "PD/through-the-looking-glass-PD.csv",
+        },
+      },
+      book: "alice-in-wonderland",
     };
   },
 };

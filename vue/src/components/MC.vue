@@ -14,7 +14,7 @@
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
         <p class="label">
-          Select a title: 
+          Select a title:
           <select v-model="book" name="" id="">
             <option value="MC/alice-in-wonderland-simple.csv">
               Alice in Wonderland
@@ -27,7 +27,7 @@
             </option>
           </select>
         </p>
-        <VariableArea :filePath="book" />
+        <VariableArea :filePath="book" :shuffle="true" />
       </div>
     </div>
   </div>

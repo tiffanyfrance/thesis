@@ -5,13 +5,44 @@
 <script>
 import * as d3 from "d3";
 
+const MCKeys = [
+  "anger",
+  "anticipation",
+  "joy",
+  "trust",
+  "fear",
+  "surprise",
+  "sadness",
+  "disgust"
+].reverse();
+
+const PDKeys = ["Angry", "Happy", "Fear", "Excited", "Sad", "Bored"].reverse();
+
+const colorMap = {
+  trust: "#abdda4",
+  joy: "#fee08b",
+  anticipation: "#fdae61",
+  sadness: "#3288bd",
+  disgust: "#DB95D2",
+  surprise: "#66AADD",
+  fear: "#66c2a5",
+  anger: "#d53e4f",
+  Bored: "#DB95D2", //change?
+  Happy: "#fee08b",
+  Angry: "#d53e4f",
+  Fear: "#66c2a5",
+  Sad: "#3288bd",
+  Excited: "#66AADD", //change?
+};
+
 export default {
-  props: ["filePath"],
+  props: ["filePath", "shuffle"],
   watch: {
     filePath: {
       immediate: true,
       async handler(val) {
         this.data = await d3.csv("/data/" + val);
+        this.keys = this.data.columns.includes("trust") ? MCKeys : PDKeys;
         this.buildChart();
       },
     },
@@ -26,69 +57,42 @@ export default {
       const margin = { top: 0, right: 20, bottom: 30, left: 20 };
       const data = this.data;
 
-      let series = d3
-        .stack()
-        .keys([
-          "sadness",
-          "joy",
-          "surprise",
-          "disgust",
-          "trust",
-          "fear",
-          "anger",
-          "anticipation",
-        ])
-        .offset(d3.stackOffsetWiggle)
-        .order(d3.stackOrderInsideOut)(data);
+      let series = d3.stack().keys(this.keys).offset(d3.stackOffsetWiggle)(
+        data
+      );
+      // .offset(d3.stackOffsetWiggle)
+      // .order(d3.stackOrderInsideOut)(data);
 
-      for (let i = 0; i < series[0].length; i++) {
-        let start = Infinity;
-        let arr = [];
+      if (this.shuffle) {
+        for (let i = 0; i < series[0].length; i++) {
+          let start = Infinity;
+          let arr = [];
 
-        for (let j = 0; j < series.length; j++) {
-          let d = series[j];
+          for (let j = 0; j < series.length; j++) {
+            let d = series[j];
 
-          arr.push({
-            j,
-            amount: d[i][1] - d[i][0],
-          });
+            arr.push({
+              j,
+              amount: d[i][1] - d[i][0],
+            });
 
-          if (d[i][0] < start) {
-            start = d[i][0];
+            if (d[i][0] < start) {
+              start = d[i][0];
+            }
           }
-        }
 
-        arr.sort((a, b) => a.amount - b.amount);
+          arr.sort((a, b) => a.amount - b.amount);
 
-        for (let obj of arr) {
-          series[obj.j][i][0] = start;
-          series[obj.j][i][1] = start + obj.amount;
+          for (let obj of arr) {
+            series[obj.j][i][0] = start;
+            series[obj.j][i][1] = start + obj.amount;
 
-          start += obj.amount;
+            start += obj.amount;
+          }
         }
       }
 
-      let chapters = [];
-
-      for (let i = 0; i < series[0].length; i++) {
-        let minY = Infinity;
-        let maxY = -Infinity;
-
-        for (let s of series) {
-          if (s[i][0] < minY) {
-            minY = s[i][0];
-          }
-          if (s[i][1] > maxY) {
-            maxY = s[i][1];
-          }
-        }
-
-        chapters.push({
-          chapter: data[i].chapter,
-          minY,
-          maxY,
-        });
-      }
+      let chapters = data.map((d) => d.chapter);
 
       let area = d3
         .area()
@@ -116,17 +120,6 @@ export default {
           .call(d3.axisBottom(x).tickSize(0))
           .call((g) => g.select(".domain").remove());
 
-      let colorMap = {
-        trust: "#abdda4",
-        joy: "#fee08b",
-        anticipation: "#fdae61",
-        sadness: "#3288bd",
-        disgust: "#DB95D2",
-        surprise: "#66AADD",
-        fear: "#66c2a5",
-        anger: "#d53e4f",
-      };
-
       let color = d3
         .scaleOrdinal()
         .domain(Object.keys(colorMap))
@@ -137,7 +130,7 @@ export default {
         .attr("viewBox", [0, 0, width, height])
         .style("height", height)
         .style("width", width);
-      
+
       svg.selectAll("*").remove();
 
       svg
@@ -145,9 +138,9 @@ export default {
         .selectAll("line")
         .data(chapters)
         .join("line")
-        .attr("x1", (d) => x(d.chapter))
+        .attr("x1", (d) => x(d))
         .attr("y1", 0)
-        .attr("x2", (d) => x(d.chapter))
+        .attr("x2", (d) => x(d))
         .attr("y2", height - margin.top - margin.bottom)
         .style("stroke-width", 0.5)
         .style("stroke", "#ccc")
@@ -162,7 +155,7 @@ export default {
         .attr("opacity", 0.9)
         .attr("d", area)
         .append("title")
-        .text(({ key }) => key);
+        .text(({ key }) => key.toLowerCase());
 
       svg.append("g").call(xAxis);
     },
