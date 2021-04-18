@@ -47,24 +47,6 @@ if (app.documents.length > 0) {
     newGradient.gradientStops[a].color = color;
   }
 
-  // // Modify the first gradient stop
-  // newGradient.gradientStops[0].rampPoint = 20;
-  // // newGradient.gradientStops[0].midPoint = 60;
-  // newGradient.gradientStops[0].color = _analytical;
-
-  // newGradient.gradientStops[1].rampPoint = 40;
-  // newGradient.gradientStops[1].color = _fear;
-
-  // newGradient.gradientStops[2].rampPoint = 60;
-  // newGradient.gradientStops[2].color = _joy;
-
-  // newGradient.gradientStops[3].rampPoint = 80;
-  // newGradient.gradientStops[3].color = _tentative;
-
-  // // Modify the last gradient stop
-  // newGradient.gradientStops[4].rampPoint = 90;
-  // newGradient.gradientStops[4].color = _anger;
-
   // construct an Illustrator.GradientColor object referring to the newly created gradient
   var colorOfGradient = new GradientColor();
   colorOfGradient.gradient = newGradient;

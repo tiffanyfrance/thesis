@@ -91,6 +91,10 @@ p {
   width: 50%;
   float: left;
 }
+.flex-33 {
+  width: 33%;
+  float: left;
+}
 .no-margin-top {
   margin-top: 0px;
 }
@@ -99,12 +103,12 @@ pre {
   background: #333;
   color: #fff;
   padding: 20px;
+  font-size: 12px;
 }
 .code {
   font-family: 'Source Code Pro', monospace;
   font-size: 12px;
 }
-
 .label {
   padding-bottom: 30px;
 }
