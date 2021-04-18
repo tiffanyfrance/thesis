@@ -6,15 +6,7 @@
       up to the first 100 sentences in a document.
     </h3>
     <div class="subcontainer vertical-center flex-container">
-      <div class="flex-50">
-        <p>
-          <select name="" id="">
-            <option value="">Alice in Wonderland</option>
-          </select>
-        </p>
-        <img src="@/assets/svgs/ibm/alice.svg" alt="" />
-      </div>
-      <div class="flex-50">
+      <div class="large-screens">
         <p>
           <select name="" id="">
             <option value="">Alice in Wonderland</option>
