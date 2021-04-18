@@ -1,35 +1,44 @@
 <template>
   <div class="container white-container">
     <h2>Meaning Cloud vs Parallel Dots</h2>
-    <h3>
-      Stuff about Meaning Cloud.
-    </h3>
+    <h3>Stuff about Meaning Cloud.</h3>
     <div class="subcontainer vertical-center flex-container">
-      <div class="flex-50">
-        <p>
-          <select name="" id="">
-            <option value="">Alice in Wonderland</option>
+      <div class="large-screens">
+        <p class="label">
+          Select a title:
+          <select v-model="book" name="" id="">
+            <option value="MC/alice-in-wonderland-simple.csv">
+              Alice in Wonderland
+            </option>
+            <option value="MC/through-the-looking-glass.csv">
+              Through the Looking Glass
+            </option>
           </select>
         </p>
-        <img src="@/assets/svgs/ibm/alice.svg" alt="" />
-      </div>
-      <div class="flex-50">
-        <p>
-          <select name="" id="">
-            <option value="">Alice in Wonderland</option>
-          </select>
-        </p>
-        <img src="@/assets/svgs/ibm/alice.svg" alt="" />
+        <div class="flex-50">
+          <VariableArea :filePath="book" />
+        </div>
+        <div class="flex-50">
+          <VariableArea :filePath="book" />
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import VariableArea from "./charts/VariableArea.vue";
+
 export default {
   name: "MCvsPD",
+  components: { VariableArea },
   props: {
     msg: String,
+  },
+  data() {
+    return {
+      book: "MC/alice-in-wonderland-simple.csv",
+    };
   },
 };
 </script>

@@ -1,10 +1,20 @@
 <template>
   <div class="container white-container">
-    <h2>Meaning Cloud</h2>
-    <h3>Stuff about Meaning Cloud.</h3>
+    <h2>MeaningCloud</h2>
+    <h3>
+      MeaningCloud is an analytic company offering a number of learning tools
+      for evaluating text. Their premium package "Deep Categorization" includes
+      an API which reviews a given corpus for emotion detection classification.
+      The product uses Plutchik’s Wheel of Emotion, with eight primary bipolar
+      emotion labels:
+      <span class="code">
+        [joy/sadness, anger/fear, trust/disgust, surprise/anticipation]</span
+      >
+    </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
-        <p>
+        <p class="label">
+          Select a title: 
           <select v-model="book" name="" id="">
             <option value="MC/alice-in-wonderland-simple.csv">
               Alice in Wonderland
@@ -27,8 +37,8 @@
 import VariableArea from "./charts/VariableArea.vue";
 
 export default {
-  components: { VariableArea },
   name: "MC",
+  components: { VariableArea },
   props: {
     msg: String,
   },

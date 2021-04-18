@@ -55,6 +55,7 @@ img {
 .label {
   width: 300px;
   text-align: left;
+  padding-bottom: 0px;
 }
 .gradient {
   width: 300px;
