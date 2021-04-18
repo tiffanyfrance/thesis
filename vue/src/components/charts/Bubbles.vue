@@ -105,7 +105,9 @@ function buildCircles(svg, data, deltaX, y, color) {
           (d["Happiness Score"] - y.domain()[0]) /
           (y.domain()[1] - y.domain()[0]);
         return color(t);
-      });
+      })
+      .append("title")
+      .text(d => d["Word"]);
 
     x += deltaX;
   }
