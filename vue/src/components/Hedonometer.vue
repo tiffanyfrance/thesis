@@ -9,16 +9,32 @@
       assignment which are used in this project.
     </h3>
     <div class="subcontainer vertical-center">
-      
+      <div class="large-screens">
+        <p>
+          <select v-model="book" name="" id="">
+            <option value="Hedonometer/alice-in-wonderland-hedonometer.json">
+              Alice in Wonderland
+            </option>
+          </select>
+        </p>
+        <Bubbles :filePath="book" />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import Bubbles from "./charts/Bubbles.vue";
 export default {
+  components: { Bubbles },
   name: "Hedonometer",
   props: {
     msg: String,
+  },
+  data() {
+    return {
+      book: "Hedonometer/alice-in-wonderland-hedonometer.json",
+    };
   },
 };
 </script>
