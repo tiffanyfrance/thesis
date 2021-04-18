@@ -11,6 +11,7 @@
           <select v-model="book" name="" id="">
             <option value="IBM/alice-in-wonderland-TA.json">Alice in Wonderland</option>
             <option value="IBM/through-the-looking-glass-TA.json">Through the Looking-Glass</option>
+            <option value="IBM/wuthering-heights-TA.json">Wuthering Heights</option>
           </select>
         </p>
         <Stacks :filePath="book" />
