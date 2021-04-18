@@ -29,6 +29,11 @@
             <option value="IBM/war-of-the-worlds-TA.json">The War of the Worlds</option>
             <option value="IBM/anna-karenina-TA.json">Anna Karenina</option>
             <option value="IBM/uncle-tom-TA.json">Uncle Tom's Cabin</option>
+            <option value="IBM/little-women-TA.json">Little Women</option>
+            <option value="IBM/scarlet-letter-TA.json">The Scarlet Letter</option>
+            <option value="IBM/dr-jekyll-TA.json">The Strange Case of Dr Jekyll and Mr Hyde</option>
+            <option value="IBM/tom-sawyer-TA.json">The Adventures of Tom Sawyer</option>
+            <option value="IBM/sherlock-holmes-TA.json">The Adventures of Sherlock Holmes</option>
           </select>
         </p>
         <Stacks :filePath="book" />
