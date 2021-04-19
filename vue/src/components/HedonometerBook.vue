@@ -8,7 +8,9 @@
       Tomkins, and Wilcox. The following models also contain color-emotion
       assignment which are used in this project.
     </h3>
-    <div class="subcontainer vertical-center flex-container">IMAGE HERE</div>
+    <div class="subcontainer vertical-center">
+      <img src="@/assets/war-of-worlds.png" alt="">
+    </div>
   </div>
 </template>
 
@@ -28,7 +30,7 @@ export default {
   margin: 0 auto;
 }
 img {
-  max-height: 400px;
+  max-height: 60vh;
 }
 .description {
   font-weight: 200;

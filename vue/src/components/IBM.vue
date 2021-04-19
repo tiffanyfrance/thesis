@@ -45,6 +45,7 @@
             <option value="IBM/huck-finn-TA.json">
               The Adventures of Huckleberry Finn
             </option>
+            <option value="IBM/tess-TA.json">Tess of the d’Urbervilles</option>
             <option value="IBM/secret-garden-TA.json">The Secret Garden</option>
             <option value="IBM/war-of-the-worlds-TA.json">
               The War of the Worlds

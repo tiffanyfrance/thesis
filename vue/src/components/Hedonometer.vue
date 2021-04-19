@@ -45,6 +45,9 @@
             <option value="Hedonometer/tale-of-two-cities-hedonometer.json">
               Tale of Two Cities
             </option>
+            <option value="Hedonometer/tess-hedonometer.json">
+              Tess of the d’Urbervilles
+            </option>
             <option value="Hedonometer/picture-of-dorian-gray-hedonometer.json">
               Picture of Dorian Gray
             </option>

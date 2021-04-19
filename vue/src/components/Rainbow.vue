@@ -68,6 +68,9 @@
                 <option value="IBM/tom-sawyer-TA.json">
                   The Adventures of Tom Sawyer
                 </option>
+                <option value="IBM/tess-TA.json">
+                  Tess of the d’Urbervilles
+                </option>
                 <option value="IBM/sherlock-holmes-TA.json">
                   The Adventures of Sherlock Holmes
                 </option>
