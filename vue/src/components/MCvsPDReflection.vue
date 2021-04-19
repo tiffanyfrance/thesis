@@ -4,10 +4,8 @@
     <h3>Stuff about Meaning Cloud.</h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
-        <div class="flex-50">
-        </div>
-        <div class="flex-50">
-        </div>
+        <div class="flex-50"></div>
+        <div class="flex-50"></div>
       </div>
     </div>
   </div>

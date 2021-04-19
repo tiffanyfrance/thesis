@@ -107,7 +107,7 @@ function buildCircles(svg, data, deltaX, y, color) {
         return color(t);
       })
       .append("title")
-      .text(d => d["Word"]);
+      .text((d) => d["Word"]);
 
     x += deltaX;
   }

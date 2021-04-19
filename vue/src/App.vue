@@ -19,7 +19,7 @@
   <!-- <SVM /> -->
   <!-- <TryIt /> -->
   <!-- <Purchase /> -->
-  <Conclusion /> 
+  <Conclusion />
 </template>
 
 <script>
@@ -60,7 +60,7 @@ export default {
     HedonometerBook,
     // LIMBIC,
     // LIMBICBook,
-    Conclusion
+    Conclusion,
   },
   data() {
     return {

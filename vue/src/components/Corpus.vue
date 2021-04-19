@@ -48,6 +48,6 @@ img {
   max-height: 70vh;
 }
 .code-snippet {
-    max-width: 400px;
+  max-width: 400px;
 }
 </style>

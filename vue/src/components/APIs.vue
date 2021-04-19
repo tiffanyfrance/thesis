@@ -22,27 +22,28 @@
             term. Colors are used to highlight both opposite emotions and
             intensity within the vertical dimension of the flower cones.
           </p>
-          <p>
-            
-          </p>
+          <p></p>
         </div>
         <div class="flex-50">
           <h4>Open Source/Hand Crafted</h4>
           <p class="description">
-            The following diagram is a  
-            <a target="_blank" 
-            href="https://observablehq.com/d/9d1ae0157e8ef4bd">rendering</a> 
-            of the Feeling Wheel by Gloria Wilcox.
-             Wilcox uses four basic emotions:
+            The following diagram is a
+            <a
+              target="_blank"
+              href="https://observablehq.com/d/9d1ae0157e8ef4bd"
+              >rendering</a
+            >
+            of the Feeling Wheel by Gloria Wilcox. Wilcox uses four basic
+            emotions:
             <span class="code"> [scared, sad, mad, glad]</span>. Glad is
             separated into three emotions:
             <span class="code"> [joyful, powerful, peaceful]</span>. More about
             the Feeling Wheel can be found
-            <a target="_blank" href="https://allthefeelz.app/feeling-wheel/">here</a>.
+            <a target="_blank" href="https://allthefeelz.app/feeling-wheel/"
+              >here</a
+            >.
           </p>
-          <p>
-            
-          </p>
+          <p></p>
         </div>
       </div>
     </div>

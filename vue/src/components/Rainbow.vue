@@ -1,36 +1,84 @@
 <template>
   <div class="container lgray-container">
     <h2>IBM Watson Tone Analyzer (Document Level)</h2>
-    <h3>For this visualization, I wanted to use the colors
-          for each emotion to create a gradient that could
-          be used for book covers. The gradient would express
-          each emotion within a multihued pallette, bringing
-          the strongest emotion to the forefront.</h3>
+    <h3>
+      For this visualization, I wanted to use the colors for each emotion to
+      create a gradient that could be used for book covers. The gradient would
+      express each emotion within a multihued pallette, bringing the strongest
+      emotion to the forefront.
+    </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
-      <div class="flex-33">
-        <div class="gradient-group">
-          <p class="label">
-            Select a Title:
-            <select name="" id="">
-              <option value="">Alice in Wonderland</option>
-            </select>
-          </p>
-          <p class="gradient no-margin-top">&nbsp;</p>
-          <div class="text">
-            <p class="no-margin-top">Analytical<br /><span class="thin">123</span></p>
-            <p>Sadness<br /><span class="thin">123</span></p>
-            <p>Fear<br /><span class="thin">123</span></p>
-            <p>Confident<br /><span class="thin">0%</span></p>
-            <p>Joy<br /><span class="thin">123</span></p>
-            <p>Tentative<br /><span class="thin">123</span></p>
-            <p>Anger<br /><span class="thin">123</span></p>
+        <div class="flex-33">
+          <div class="gradient-group">
+            <p class="label">
+              Select a Title:
+              <select v-model="book" name="" id="">
+                <option value="IBM/alice-in-wonderland-TA.json">
+                  Alice in Wonderland
+                </option>
+                <option value="IBM/through-the-looking-glass-TA.json">
+                  Through the Looking-Glass
+                </option>
+                <option value="IBM/wuthering-heights-TA.json">
+                  Wuthering Heights
+                </option>
+                <option value="IBM/frankenstein-TA.json">Frankenstein</option>
+                <option value="IBM/pride-and-prejudice-TA.json">
+                  Pride and Prejudice
+                </option>
+                <option value="IBM/importance-of-being-ernest-TA.json">
+                  Importance of Being Ernest
+                </option>
+                <option value="IBM/moby-dick-TA.json">Moby Dick</option>
+                <option value="IBM/twenty-thousand-leagues-TA.json">
+                  Twenty Thousand Leagues Under the Sea
+                </option>
+                <option value="IBM/tale-of-two-cities-TA.json">
+                  Tale of Two Cities
+                </option>
+                <option value="IBM/picture-of-dorian-gray-TA.json">
+                  Picture of Dorian Gray
+                </option>
+                <option value="IBM/great-gatsby-TA.json">Great Gatsby</option>
+                <option value="IBM/metamorphosis-TA.json">Metamorphosis</option>
+                <option value="IBM/dracula-TA.json">Dracula</option>
+                <option value="IBM/jane-eyre-TA.json">Jane Eyre</option>
+                <option value="IBM/heart-of-darkness-TA.json">
+                  Heart of Darkness
+                </option>
+                <option value="IBM/huck-finn-TA.json">
+                  The Adventures of Huckleberry Finn
+                </option>
+                <option value="IBM/secret-garden-TA.json">
+                  The Secret Garden
+                </option>
+                <option value="IBM/war-of-the-worlds-TA.json">
+                  The War of the Worlds
+                </option>
+                <option value="IBM/anna-karenina-TA.json">Anna Karenina</option>
+                <option value="IBM/uncle-tom-TA.json">Uncle Tom's Cabin</option>
+                <option value="IBM/little-women-TA.json">Little Women</option>
+                <option value="IBM/scarlet-letter-TA.json">
+                  The Scarlet Letter
+                </option>
+                <option value="IBM/dr-jekyll-TA.json">
+                  The Strange Case of Dr Jekyll and Mr Hyde
+                </option>
+                <option value="IBM/tom-sawyer-TA.json">
+                  The Adventures of Tom Sawyer
+                </option>
+                <option value="IBM/sherlock-holmes-TA.json">
+                  The Adventures of Sherlock Holmes
+                </option>
+              </select>
+            </p>
+            <Gradient :filePath="book" />
           </div>
         </div>
-      </div>
-      <div class="flex-33">
-        <div class="code">
-          <pre>
+        <div class="flex-33">
+          <div class="code">
+            <pre>
              "document_tone": {
                 "tones": [
                   {
@@ -50,10 +98,11 @@
                   },...
                 ]
             }
-          </pre>
-        </div>
-        <div class="code">
-          <pre>
+          </pre
+            >
+          </div>
+          <div class="code">
+            <pre>
             background: linear-gradient(
               120deg,
               #64368f 10.36%,
@@ -63,21 +112,22 @@
               #ef673c 89.58%,
               #eb3c39 100%
             );
-          </pre>
+          </pre
+            >
+          </div>
         </div>
-      </div>
-      <div class="flex-33">
-        <p class="description">
-          I started with output from Tone Analyzer on the document
-          level labels. The output was divided by the total in order
-          to get a percentage of the whole. Each value was assigned 
-          it's associated color with a "stop value" as the 
-          percentage. The values were culmative, with the final value
-          being 100%. This was applied to a CSS gradient as seen on 
-          the left.
-        </p>
-        <div class="code">
-          <pre>      var color = new RGBColor();
+        <div class="flex-33">
+          <p class="description">
+            I started with output from Tone Analyzer on the document level
+            labels. The output was divided by the total in order to get a
+            percentage of the whole. Each value was assigned it's associated
+            color with a "stop value" as the percentage. The values were
+            culmative, with the final value being 100%. This was applied to a
+            CSS gradient as seen on the left.
+          </p>
+          <div class="code">
+            <pre>
+      var color = new RGBColor();
       color.red = vals[a].colors[0];
       color.green = vals[a].colors[1];
       color.blue = vals[a].colors[2];
@@ -93,28 +143,35 @@
       var topPath = app.activeDocument.pathItems[0];
       topPath.filled = true;
       topPath.fillColor = colorOfGradient;
-          </pre>
-        </div>
-        <p class="description">
-          In order to make the book cover, I needed a programmatic 
-          way to create a gradient in Illustrator. Illustrator
-          allows you to create scripts in javascript and 
-          run them from the program. After much googling and 
-          tweaking, I was able to write a script to auto generate
-          a gradient with accurate rampPoints representing
-          the data distribution in the book rendering below.
+          </pre
+            >
+          </div>
+          <p class="description">
+            In order to make the book cover, I needed a programmatic way to
+            create a gradient in Illustrator. Illustrator allows you to create
+            scripts in javascript and run them from the program. After much
+            googling and tweaking, I was able to write a script to auto generate
+            a gradient with accurate rampPoints representing the data
+            distribution in the book rendering below.
           </p>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 </template>
 
 <script>
+import Gradient from "./charts/Gradient.vue";
 export default {
+  components: { Gradient },
   name: "Rainbow",
   props: {
     msg: String,
+  },
+  data() {
+    return {
+      book: "IBM/alice-in-wonderland-TA.json",
+    };
   },
 };
 </script>
@@ -162,12 +219,9 @@ img {
   float: left;
   padding-left: 20px;
   text-align: left;
-  p, span {
+  p,
+  span {
     font-size: 12px;
   }
-}
-span.thin {
-  font-weight: 200;
-  color: #999;
 }
 </style>

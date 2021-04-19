@@ -13,7 +13,7 @@ const MCKeys = [
   "fear",
   "surprise",
   "sadness",
-  "disgust"
+  "disgust",
 ].reverse();
 
 const PDKeys = ["Angry", "Happy", "Fear", "Excited", "Sad", "Bored"].reverse();

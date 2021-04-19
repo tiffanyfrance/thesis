@@ -2,12 +2,8 @@
 <template>
   <div class="container white-container">
     <h2>Conclusion</h2>
-    <h3>
-      ML image cluster??
-    </h3>
-    <div class="subcontainer vertical-center">
-      Image goes here
-    </div>
+    <h3>ML image cluster??</h3>
+    <div class="subcontainer vertical-center">Image goes here</div>
   </div>
 </template>
 

@@ -52,7 +52,8 @@ img {
   float: left;
   padding-left: 20px;
   text-align: left;
-  p, span {
+  p,
+  span {
     font-size: 12px;
   }
 }
