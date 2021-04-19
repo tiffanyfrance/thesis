@@ -1,6 +1,6 @@
 <template>
   <div class="container white-container">
-    <h2>MeaningCloud</h2>
+    <h2>Variable Line Chart</h2>
     <h3>
       MeaningCloud is an analytic company offering a number of learning tools
       for evaluating text. Their premium package "Deep Categorization" includes

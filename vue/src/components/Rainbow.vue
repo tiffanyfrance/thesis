@@ -1,11 +1,14 @@
 <template>
   <div class="container lgray-container">
-    <h2>IBM Watson Tone Analyzer (Document Level)</h2>
+    <h2>Gradient Based Visualization</h2>
     <h3>
-      For this visualization, I wanted to use the colors for each emotion to
-      create a gradient that could be used for book covers. The gradient would
-      express each emotion within a multihued pallette, bringing the strongest
-      emotion to the forefront.
+      I mapped colors for each emotion to
+      create a gradient, with hopes 
+      that the gradient would
+      express each emotion within a multihued pallette, 
+      visually bringing the strongest emotion(s) to the forefront. 
+      IBM offers evaluation at the document level, perfect for 
+      this layout.
     </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">

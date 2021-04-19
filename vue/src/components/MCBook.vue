@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2>Meaning Cloud Book Rendering</h2>
+    <h2>Book Rendering</h2>
     <h3>
       This book cover was created using the rendering of the visualization in
       the variable line chart mentioned above. The design was laid out using

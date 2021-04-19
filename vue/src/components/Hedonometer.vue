@@ -1,6 +1,6 @@
 <template>
   <div class="container white-container">
-    <h2>Hedonometer</h2>
+    <h2>Visualizing Keywords</h2>
     <h3>
       The psychoanalytic field lacks an official consensus on how to categorize
       human emotions, however data scientists often use the schemas based on the
