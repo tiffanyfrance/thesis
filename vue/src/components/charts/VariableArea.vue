@@ -16,7 +16,7 @@ const MCKeys = [
   "disgust",
 ].reverse();
 
-const PDKeys = ["Angry", "Happy", "Fear", "Excited", "Sad", "Bored"].reverse();
+const PDKeys = ["Angry", "Excited", "Happy", "Fear", "Sad", "Bored"].reverse();
 
 const colorMap = {
   trust: "#abdda4",
@@ -27,12 +27,14 @@ const colorMap = {
   surprise: "#66AADD",
   fear: "#66c2a5",
   anger: "#d53e4f",
-  Bored: "#DB95D2", //change?
+  // Bored: "#DB95D2", //change?
+  Bored: "#986c9b",
   Happy: "#fee08b",
+  // Excited: "#66AADD", //change?
+  Excited: "#f7a83b", 
   Angry: "#d53e4f",
   Fear: "#66c2a5",
   Sad: "#3288bd",
-  Excited: "#66AADD", //change?
 };
 
 export default {

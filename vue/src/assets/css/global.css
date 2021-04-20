@@ -52,7 +52,7 @@ p {
   font-weight: 500;
 }
 .container {
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 .white-container {

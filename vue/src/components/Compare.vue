@@ -5,7 +5,7 @@
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
         <div class="flex-50">
-          <h4>Select</h4>
+          <h4>Select a title:</h4>
           <select v-model="book" name="" id="">
             <option value="IBM/alice-in-wonderland-TA.json">
               Alice in Wonderland
@@ -64,7 +64,7 @@
               The Adventures of Sherlock Holmes
             </option>
           </select>
-          <p class="description">{{ sentence.text }}</p>
+          <p class="quote">{{ sentence.text }}</p>
           <p></p>
           <div>
             <input
@@ -155,7 +155,7 @@
           </div>
         </div>
         <div class="flex-50">
-          <h4>Viz</h4>
+          <!-- <h4>Viz</h4> -->
           <p class="description">
             <Radar :sentence="sentence" :userTones="userTones" />
           </p>
@@ -244,10 +244,18 @@ img {
 .description {
   font-weight: 200;
   font-size: 14px;
-  width: 75%;
-  max-width: 460px;
+//   width: 100%;
+  max-width: 600px;
   margin: 0 auto;
   text-align: justify;
   margin-bottom: 60px;
+}
+.quote {
+  font-size: 28px;
+  font-family: Baskerville, "DM Serif Display";
+  font-weight: 100;
+  margin-top: 20px;
+  padding: 40px 25%;
+  text-align: center;
 }
 </style>

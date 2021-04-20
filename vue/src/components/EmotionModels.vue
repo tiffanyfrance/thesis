@@ -32,7 +32,7 @@
             The following diagram is a
             <a
               target="_blank"
-              href="https://observablehq.com/d/9d1ae0157e8ef4bd"
+              href="https://observablehq.com/@tiffylou/feeling-wheel"
               >rendering</a
             >
             of the Feeling Wheel by Gloria Wilcox. Wilcox uses four basic

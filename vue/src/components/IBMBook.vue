@@ -1,11 +1,13 @@
 <template>
-  <div class="container">
+  <div class="container lgray-container">
     <h2>Book Rendering</h2>
     <h3>
       IBMBook Watson Suite Tone Analyzer evaluates emotions based on sentence
       level, up to the first 100 sentences in a document.
     </h3>
-    <div class="subcontainer vertical-center">Image goes here</div>
+    <div class="subcontainer vertical-center">
+      <img src="@/assets/pride-and-prejudice.png" alt="Pride and Prejudice">
+    </div>
   </div>
 </template>
 

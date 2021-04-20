@@ -13,7 +13,7 @@ const colors = {
   fear: d3.interpolateLab("#a1d99b", "#A0CE69", "#C4F47F"), // Dark Green
   anger: d3.interpolateLab("#fee0d2", "#fc9272", "#de2d26"), // Red
   confident: d3.interpolateLab("#ffffc8", "#A0D568", "#ffff5a"), // Green
-  none: d3.interpolateLab("#eeeeee"),
+  none: d3.interpolateLab("white"),
   //"#f0f0f0","#bdbdbd","#636363" Grey
 };
 
