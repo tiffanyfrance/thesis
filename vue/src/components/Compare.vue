@@ -1,33 +1,22 @@
 <template>
   <div class="container lgray-container">
-    <h2>APIs</h2>
+    <h2>Compare</h2>
     <h3>
-      The psychoanalytic field lacks an official consensus on how to categorize
-      human emotions, however data scientists often use the schemas based on the
-      work of several prominent researchers, including Plutchik, Ekman, Parrot,
-      Tomkins, and Wilcox. The following models also contain color-emotion
-      assignment which are used in this project.
+      Lorem ipsum
     </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
         <div class="flex-50">
-          <h4>Enterprise/Propriatary</h4>
+          <h4>Select</h4>
           <p class="description">
-            MeaningCloud
-            ParallelDots
-            IBM Watson Tone Analyzer
+            foo
           </p>
           <p></p>
         </div>
         <div class="flex-50">
-          <h4>Open Source/Hand Crafted</h4>
+          <h4>Viz</h4>
           <p class="description">
-            Emo2Text
-            Hedonometer (BOW, TF)
-            LIMBIC 
-            SVM (Hackathon)
-            SVM (thesis paper)
-            IEOMP
+            foo
           </p>
           <p></p>
         </div>
@@ -38,7 +27,7 @@
 
 <script>
 export default {
-  name: "Emotion",
+  name: "Compare",
   props: {
     msg: String,
   },

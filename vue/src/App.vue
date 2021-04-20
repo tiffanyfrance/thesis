@@ -14,6 +14,7 @@
   <IBMBook />
   <Hedonometer />
   <HedonometerBook />
+  <Compare />
   <!-- <LIMBIC />
   <LIMBICBook /> -->
   <!-- <SVM /> -->
@@ -37,6 +38,7 @@ import Rainbow from "./components/Rainbow.vue";
 import RainbowBook from "./components/RainbowBook.vue";
 import Hedonometer from "./components/Hedonometer.vue";
 import HedonometerBook from "./components/HedonometerBook.vue";
+import Compare from "./components/Compare.vue";
 // import LIMBIC from "./components/LIMBIC.vue";
 // import LIMBICBook from "./components/LIMBICBook.vue";
 import Conclusion from "./components/Conclusion.vue";
@@ -58,6 +60,7 @@ export default {
     RainbowBook,
     Hedonometer,
     HedonometerBook,
+    Compare,
     // LIMBIC,
     // LIMBICBook,
     Conclusion,
@@ -83,6 +86,7 @@ body {
   // background-repeat: no-repeat;
   // height: 100vh;
   // max-width: 1200px;
+  min-width: 1280px;
   margin: 0 auto;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

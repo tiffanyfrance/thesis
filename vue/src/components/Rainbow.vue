@@ -209,7 +209,7 @@ img {
 }
 .gradient {
   width: 300px;
-  height: 620px;
+  height: calc(100vh - 360px);
   background: linear-gradient(
     120deg,
     #64368f 10.36%,

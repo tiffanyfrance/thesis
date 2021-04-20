@@ -3,7 +3,7 @@
     <h2>Book Rendering</h2>
     <h3>IBM Watson Tone Analyzer (Document Level)</h3>
     <div class="subcontainer vertical-center flex-container">
-      <img src="@/assets/rainbow/alice-in-wonderland-rainbow.png" alt="" />
+      <img src="@/assets/frankenstein.png" alt="" />
     </div>
   </div>
 </template>
