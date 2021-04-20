@@ -10,26 +10,95 @@
     </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
-        <div class="flex-50">
+        <div class="flex-33">
           <h4>Enterprise/Propriatary</h4>
-          <p class="description">
-            MeaningCloud
-            ParallelDots
-            IBM Watson Tone Analyzer
-          </p>
-          <p></p>
+          <table>
+            <tr>
+              <td>
+                <h5>MeaningCloud</h5>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod ratione illum enim ipsam! Neque est possimus dicta rerum adipisci voluptatem omnis! Odit, tenetur eveniet? At omnis sint voluptatibus! Nostrum?
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h5>ParalellDots</h5>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod ratione illum enim ipsam! Neque est possimus dicta rerum adipisci voluptatem omnis! Odit, tenetur eveniet? At omnis sint voluptatibus! Nostrum?
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h5>IBM Watson Tone Analyzer</h5>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod ratione illum enim ipsam! Neque est possimus dicta rerum adipisci voluptatem omnis! Odit, tenetur eveniet? At omnis sint voluptatibus! Nostrum?
+                </p>
+              </td>
+            </tr>
+          </table>
         </div>
-        <div class="flex-50">
-          <h4>Open Source/Hand Crafted</h4>
-          <p class="description">
-            Emo2Text
-            Hedonometer (BOW, TF)
-            LIMBIC 
-            SVM (Hackathon)
-            SVM (thesis paper)
-            IEOMP
-          </p>
-          <p></p>
+        <div class="flex-33">
+          <h4>Open Source</h4>
+
+          <table>
+            <tr>
+              <td>
+                <h5>Text2Emo</h5>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod ratione illum enim ipsam! Neque est possimus dicta rerum adipisci voluptatem omnis! Odit, tenetur eveniet? At omnis sint voluptatibus! Nostrum?
+                </p>
+              </td>
+            </tr>
+             
+             <tr>
+              <td>
+                <h5>LIMBIC</h5>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod ratione illum enim ipsam! Neque est possimus dicta rerum adipisci voluptatem omnis! Odit, tenetur eveniet? At omnis sint voluptatibus! Nostrum?
+                </p>
+              </td>
+            </tr>
+             <tr>
+              <td>
+                <h5>IEMOCAP Emotion Detection</h5>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod ratione illum enim ipsam! Neque est possimus dicta rerum adipisci voluptatem omnis! Odit, tenetur eveniet? At omnis sint voluptatibus! Nostrum?
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="flex-33">
+          <h4>Hand Crafted Resources/Research</h4>
+
+          <table>
+            <tr>
+              <td>
+                <h5>Hedonometer (BOW, TF IDF)</h5>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod ratione illum enim ipsam! Neque est possimus dicta rerum adipisci voluptatem omnis! Odit, tenetur eveniet? At omnis sint voluptatibus! Nostrum?
+                </p>
+              </td>
+            </tr>
+             <tr>
+              <td>
+                <h5>SVM (Hackathon)</h5>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod ratione illum enim ipsam! Neque est possimus dicta rerum adipisci voluptatem omnis! Odit, tenetur eveniet? At omnis sint voluptatibus! Nostrum?
+                </p>
+              </td>
+            </tr>
+             <tr>
+              <td>
+                <h5>SVM (thesis paper)</h5>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod ratione illum enim ipsam! Neque est possimus dicta rerum adipisci voluptatem omnis! Odit, tenetur eveniet? At omnis sint voluptatibus! Nostrum?
+                </p>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
@@ -50,13 +119,23 @@ export default {
 img {
   max-height: 400px;
 }
+h5 {
+  margin-bottom: 10px;
+}
 .description {
   font-weight: 200;
   font-size: 14px;
-  width: 75%;
-  max-width: 460px;
+  // width: 75%;
+  // max-width: 460px;
   margin: 0 auto;
-  text-align: justify;
-  margin-bottom: 60px;
+  // text-align: justify;
+  margin-bottom: 10px;
+}
+table {
+  margin: 0 auto;
+  max-width: 320px;
+}
+td {
+  text-align: center;
 }
 </style>

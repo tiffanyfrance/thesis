@@ -1,7 +1,11 @@
 <template>
   <div class="container lgray-container">
-    <h2>Compare</h2>
-    <h3>Lorem ipsum</h3>
+    <h2>Try it out!</h2>
+    <h3>How well do Machine Learning APIs match emotions in 
+        literary text? Use the sliders below to assess the 
+        emotions in each sentence and then compare your output
+        to IBM Watson's sentence level emotion labels.
+    </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
         <div class="flex-50">
@@ -244,7 +248,7 @@ img {
 .description {
   font-weight: 200;
   font-size: 14px;
-//   width: 100%;
+  //   width: 100%;
   max-width: 600px;
   margin: 0 auto;
   text-align: justify;
@@ -257,5 +261,34 @@ img {
   margin-top: 20px;
   padding: 40px 25%;
   text-align: center;
+}
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: steelblue;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
 }
 </style>
