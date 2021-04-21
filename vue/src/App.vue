@@ -21,6 +21,7 @@
   <!-- <TryIt /> -->
   <!-- <Purchase /> -->
   <Conclusion />
+  <!-- <Final /> -->
 </template>
 
 <script>
@@ -42,6 +43,7 @@ import Compare from "./components/Compare.vue";
 // import LIMBIC from "./components/LIMBIC.vue";
 // import LIMBICBook from "./components/LIMBICBook.vue";
 import Conclusion from "./components/Conclusion.vue";
+// import Final from "./components/Final.vue";
 
 export default {
   name: "App",
@@ -64,6 +66,7 @@ export default {
     // LIMBIC,
     // LIMBICBook,
     Conclusion,
+    // Final,
   },
   data() {
     return {
