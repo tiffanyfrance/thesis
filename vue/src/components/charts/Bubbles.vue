@@ -52,6 +52,7 @@ export default {
       let svg = d3
         .select(this.$refs.svgContainer)
         .attr("viewBox", [0, 0, width, height])
+        .style("font-size", "12px")
         .style("height", height)
         .style("width", width);
 
@@ -62,6 +63,7 @@ export default {
         topData,
         deltaX,
         topY,
+        true,
         d3.interpolateHsl("green", "blue")
       );
 
@@ -70,6 +72,7 @@ export default {
         bottomData,
         deltaX,
         bottomY,
+        false,
         d3.interpolateHsl("red", "yellow")
       );
 
@@ -87,7 +90,7 @@ export default {
   },
 };
 
-function buildCircles(svg, data, deltaX, y, color) {
+function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
   let x = deltaX / 2;
 
   for (let i = 0; i < data.length; i++) {
@@ -110,6 +113,93 @@ function buildCircles(svg, data, deltaX, y, color) {
       .text((d) => d["Word"]);
 
     x += deltaX;
+
+    let lineGroup = svg
+      .append("g")
+      .style("stroke-width", 1)
+      .style("stroke", "#999")
+      .style("fill", "none");
+
+    lineGroup
+      .append("line")
+      .attr("x1", 10)
+      .attr("y1", y.range()[1])
+      .attr("x2", 10)
+      .attr("y2", y.range()[0]);
+
+    if (isUpArrow) {
+      lineGroup
+        .append("line")
+        .attr("x1", 10)
+        .attr("y1", y.range()[1])
+        .attr("x2", 10 - 7)
+        .attr("y2", y.range()[1] + 7);
+
+      lineGroup
+        .append("line")
+        .attr("x1", 10)
+        .attr("y1", y.range()[1])
+        .attr("x2", 10 + 7)
+        .attr("y2", y.range()[1] + 7);
+
+      let midPoint = (y.range()[0] + y.range()[1]) / 2;
+
+      let textGroup = svg.append("g");
+
+      textGroup
+        .append("text")
+        .attr("dy", "1em")
+        .style("transform", `translate(0, ${midPoint}px) rotate(-90deg)`)
+        .style("text-anchor", "middle")
+        .text("greater than 7");
+
+      let textBBox = textGroup.select("text").node().getBBox();
+
+      textGroup
+        .insert("rect", "text")
+        .style("transform", `translate(0, ${midPoint}px) rotate(-90deg)`)
+        .attr("x", textBBox.x - 10)
+        .attr("y", textBBox.y)
+        .attr("width", textBBox.width + 20)
+        .attr("height", textBBox.height)
+        .attr("fill", "white");
+    } else {
+      lineGroup
+        .append("line")
+        .attr("x1", 10)
+        .attr("y1", y.range()[0])
+        .attr("x2", 10 - 7)
+        .attr("y2", y.range()[0] - 7);
+
+      lineGroup
+        .append("line")
+        .attr("x1", 10)
+        .attr("y1", y.range()[0])
+        .attr("x2", 10 + 7)
+        .attr("y2", y.range()[0] - 7);
+
+      let midPoint = (y.range()[0] + y.range()[1]) / 2;
+
+      let textGroup = svg.append("g");
+
+      textGroup
+        .append("text")
+        .attr("dy", "1em")
+        .style("transform", `translate(0, ${midPoint}px) rotate(-90deg)`)
+        .style("text-anchor", "middle")
+        .text("less than 3");
+
+      let textBBox = textGroup.select("text").node().getBBox();
+
+      textGroup
+        .insert("rect", "text")
+        .style("transform", `translate(0, ${midPoint}px) rotate(-90deg)`)
+        .attr("x", textBBox.x - 10)
+        .attr("y", textBBox.y)
+        .attr("width", textBBox.width + 20)
+        .attr("height", textBBox.height)
+        .attr("fill", "white");
+    }
   }
 }
 </script>
