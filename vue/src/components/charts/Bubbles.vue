@@ -5,6 +5,8 @@
 <script>
 import * as d3 from "d3";
 
+const margin = { top: 20, right: 10, bottom: 80, left: 40 };
+
 export default {
   props: ["filePath"],
   watch: {
@@ -23,7 +25,6 @@ export default {
     buildChart() {
       const width = this.width;
       const height = 600;
-      const margin = { top: 20, right: 10, bottom: 80, left: 10 };
       const middlePercent = 0.1;
       const halfMiddleSize = (height * middlePercent) / 2;
 
@@ -81,7 +82,7 @@ export default {
         .selectAll("text")
         .data(data)
         .join("text")
-        .attr("x", (d, i) => deltaX / 2 + i * deltaX)
+        .attr("x", (d, i) => margin.left + deltaX / 2 + i * deltaX)
         .attr("y", height - margin.bottom / 2)
         .style("text-anchor", "middle")
         .style("fill", "#333")
@@ -91,7 +92,7 @@ export default {
 };
 
 function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
-  let x = deltaX / 2;
+  let x = margin.left + deltaX / 2;
 
   for (let i = 0; i < data.length; i++) {
     svg
@@ -122,24 +123,24 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
 
     lineGroup
       .append("line")
-      .attr("x1", 10)
+      .attr("x1", margin.left / 2)
       .attr("y1", y.range()[1])
-      .attr("x2", 10)
+      .attr("x2", margin.left / 2)
       .attr("y2", y.range()[0]);
 
     if (isUpArrow) {
       lineGroup
         .append("line")
-        .attr("x1", 10)
+        .attr("x1", margin.left / 2)
         .attr("y1", y.range()[1])
-        .attr("x2", 10 - 7)
+        .attr("x2", margin.left / 2 - 7)
         .attr("y2", y.range()[1] + 7);
 
       lineGroup
         .append("line")
-        .attr("x1", 10)
+        .attr("x1", margin.left / 2)
         .attr("y1", y.range()[1])
-        .attr("x2", 10 + 7)
+        .attr("x2", margin.left / 2 + 7)
         .attr("y2", y.range()[1] + 7);
 
       let midPoint = (y.range()[0] + y.range()[1]) / 2;
@@ -148,8 +149,11 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
 
       textGroup
         .append("text")
-        .attr("dy", "1em")
-        .style("transform", `translate(0, ${midPoint}px) rotate(-90deg)`)
+        .attr("dy", "0.25em")
+        .style(
+          "transform",
+          `translate(${margin.left / 2}px, ${midPoint}px) rotate(-90deg)`
+        )
         .style("text-anchor", "middle")
         .text("greater than 7");
 
@@ -157,7 +161,10 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
 
       textGroup
         .insert("rect", "text")
-        .style("transform", `translate(0, ${midPoint}px) rotate(-90deg)`)
+        .style(
+          "transform",
+          `translate(${margin.left / 2}px, ${midPoint}px) rotate(-90deg)`
+        )
         .attr("x", textBBox.x - 10)
         .attr("y", textBBox.y)
         .attr("width", textBBox.width + 20)
@@ -166,16 +173,16 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
     } else {
       lineGroup
         .append("line")
-        .attr("x1", 10)
+        .attr("x1", margin.left / 2)
         .attr("y1", y.range()[0])
-        .attr("x2", 10 - 7)
+        .attr("x2", margin.left / 2 - 7)
         .attr("y2", y.range()[0] - 7);
 
       lineGroup
         .append("line")
-        .attr("x1", 10)
+        .attr("x1", margin.left / 2)
         .attr("y1", y.range()[0])
-        .attr("x2", 10 + 7)
+        .attr("x2", margin.left / 2 + 7)
         .attr("y2", y.range()[0] - 7);
 
       let midPoint = (y.range()[0] + y.range()[1]) / 2;
@@ -184,8 +191,11 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
 
       textGroup
         .append("text")
-        .attr("dy", "1em")
-        .style("transform", `translate(0, ${midPoint}px) rotate(-90deg)`)
+        .attr("dy", "0.25em")
+        .style(
+          "transform",
+          `translate(${margin.left / 2}px, ${midPoint}px) rotate(-90deg)`
+        )
         .style("text-anchor", "middle")
         .text("less than 3");
 
@@ -193,7 +203,10 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
 
       textGroup
         .insert("rect", "text")
-        .style("transform", `translate(0, ${midPoint}px) rotate(-90deg)`)
+        .style(
+          "transform",
+          `translate(${margin.left / 2}px, ${midPoint}px) rotate(-90deg)`
+        )
         .attr("x", textBBox.x - 10)
         .attr("y", textBBox.y)
         .attr("width", textBBox.width + 20)
