@@ -52,7 +52,8 @@ p {
   font-weight: 500;
 }
 .container {
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 900px;
   position: relative;
 }
 .white-container {
@@ -86,6 +87,11 @@ p {
 .flex-container {
   display: flexbox;
   flex-direction: row;
+}
+.flex-container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .flex-50 {
   width: 50%;

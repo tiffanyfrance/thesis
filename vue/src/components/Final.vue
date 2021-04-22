@@ -28,6 +28,6 @@ img {
   margin-bottom: 10px;
 }
 .container {
-  // background-image: url(./assets/bookshelf.png)
+  background-image: url(./assets/bookshelf.png)
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
   <div class="container lgray-container">
     <h2>Try it out!</h2>
-    <h3>How well do Machine Learning APIs match emotions in 
-        literary text? Use the sliders below to assess the 
-        emotions in each sentence and then compare your output
-        to IBM Watson's sentence level emotion labels.
+    <h3>
+      How well do Machine Learning APIs match emotions in literary text? Use the
+      sliders below to assess the emotions in each sentence and then compare
+      your output to IBM Watson's sentence level emotion labels.
     </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
@@ -70,89 +70,91 @@
           </select>
           <p class="quote">{{ sentence.text }}</p>
           <p></p>
-          <div>
-            <input
-              type="range"
-              v-model="userTones.sadness"
-              id="sadness"
-              name="sadness"
-              min="0"
-              max="1"
-              step="0.01"
-            />
-            <label for="sadness">Sadness</label>
-          </div>
-          <div>
-            <input
-              type="range"
-              v-model="userTones.joy"
-              id="joy"
-              name="joy"
-              min="0"
-              max="1"
-              step="0.01"
-            />
-            <label for="joy">Joy</label>
-          </div>
-          <div>
-            <input
-              type="range"
-              v-model="userTones.analytical"
-              id="analytical"
-              name="analytical"
-              min="0"
-              max="1"
-              step="0.01"
-            />
-            <label for="analytical">Analytical</label>
-          </div>
-          <div>
-            <input
-              type="range"
-              v-model="userTones.tentative"
-              id="tentative"
-              name="tentative"
-              min="0"
-              max="1"
-              step="0.01"
-            />
-            <label for="tentative">Tentative</label>
-          </div>
-          <div>
-            <input
-              type="range"
-              v-model="userTones.fear"
-              id="fear"
-              name="fear"
-              min="0"
-              max="1"
-              step="0.01"
-            />
-            <label for="fear">Fear</label>
-          </div>
-          <div>
-            <input
-              type="range"
-              v-model="userTones.anger"
-              id="anger"
-              name="anger"
-              min="0"
-              max="1"
-              step="0.01"
-            />
-            <label for="anger">Anger</label>
-          </div>
-          <div>
-            <input
-              type="range"
-              v-model="userTones.confident"
-              id="confident"
-              name="confident"
-              min="0"
-              max="1"
-              step="0.01"
-            />
-            <label for="confident">Confident</label>
+          <div id="sliders">
+            <div class="slider">
+              <input
+                type="range"
+                v-model="userTones.joy"
+                id="joy"
+                name="joy"
+                min="0"
+                max="1"
+                step="0.01"
+              />
+              <label for="joy">Joy</label>
+            </div>
+            <div class="slider">
+              <input
+                type="range"
+                v-model="userTones.sadness"
+                id="sadness"
+                name="sadness"
+                min="0"
+                max="1"
+                step="0.01"
+              />
+              <label for="sadness">Sadness</label>
+            </div>
+            <div class="slider">
+              <input
+                type="range"
+                v-model="userTones.fear"
+                id="fear"
+                name="fear"
+                min="0"
+                max="1"
+                step="0.01"
+              />
+              <label for="fear">Fear</label>
+            </div>
+            <div class="slider">
+              <input
+                type="range"
+                v-model="userTones.anger"
+                id="anger"
+                name="anger"
+                min="0"
+                max="1"
+                step="0.01"
+              />
+              <label for="anger">Anger</label>
+            </div>
+            <div class="slider">
+              <input
+                type="range"
+                v-model="userTones.analytical"
+                id="analytical"
+                name="analytical"
+                min="0"
+                max="1"
+                step="0.01"
+              />
+              <label for="analytical">Analytical</label>
+            </div>
+            <div class="slider">
+              <input
+                type="range"
+                v-model="userTones.tentative"
+                id="tentative"
+                name="tentative"
+                min="0"
+                max="1"
+                step="0.01"
+              />
+              <label for="tentative">Tentative</label>
+            </div>
+            <div class="slider">
+              <input
+                type="range"
+                v-model="userTones.confident"
+                id="confident"
+                name="confident"
+                min="0"
+                max="1"
+                step="0.01"
+              />
+              <label for="confident">Confident</label>
+            </div>
           </div>
           <div>
             <button @click="nextSentence">Next</button>
@@ -258,37 +260,58 @@ img {
   font-size: 28px;
   font-family: Baskerville, "DM Serif Display";
   font-weight: 100;
-  margin-top: 20px;
-  padding: 40px 25%;
+  /* margin-top: 20px; */
+  padding: 40px 40px;
+  margin: 40px 20%;
   text-align: center;
+  background: #333;
+  color: #fff;
+  border-radius: 3px;
 }
-input[type=range]{
-    -webkit-appearance: none;
+#sliders {
+  padding: 40px 40px;
+  margin: 40px 20%;
+  text-align: center;
+  background: #ddd;
+  // color: #fff;
+  border-radius: 3px;
+  .slider {
+    text-align: left;
+    width: 230px;
+    margin: 0 auto;
+  }
+  label {
+    padding-left: 10px;
+    font-size: 12px;
+  }
 }
-
-input[type=range]::-webkit-slider-runnable-track {
-    width: 300px;
-    height: 5px;
-    background: #ddd;
-    border: none;
-    border-radius: 3px;
-}
-
-input[type=range]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    border: none;
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    background: steelblue;
-    margin-top: -4px;
-}
-
-input[type=range]:focus {
-    outline: none;
+input[type="range"] {
+  -webkit-appearance: none;
 }
 
-input[type=range]:focus::-webkit-slider-runnable-track {
-    background: #ccc;
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: #999;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: steelblue;
+  margin-top: -4px;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background: #666;
 }
 </style>
