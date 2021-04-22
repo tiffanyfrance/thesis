@@ -28,7 +28,12 @@
             <option value="MC/anna-karenina-simple.csv">Anna Karenina</option>
           </select>
         </p>
-        <VariableArea :filePath="book" :shuffle="true" />
+        <VariableArea
+          :filePath="book"
+          :shuffle="true"
+          leftAxisText="rank of emotion strength"
+          :leftAxisArrow="true"
+        />
       </div>
     </div>
   </div>

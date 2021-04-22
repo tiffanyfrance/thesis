@@ -31,14 +31,14 @@ const colorMap = {
   Bored: "#986c9b",
   Happy: "#fee08b",
   // Excited: "#66AADD", //change?
-  Excited: "#f7a83b", 
+  Excited: "#f7a83b",
   Angry: "#d53e4f",
   Fear: "#66c2a5",
   Sad: "#3288bd",
 };
 
 export default {
-  props: ["filePath", "shuffle"],
+  props: ["filePath", "shuffle", "leftAxisText", "leftAxisArrow"],
   watch: {
     filePath: {
       immediate: true,
@@ -56,7 +56,7 @@ export default {
     buildChart() {
       const width = this.width;
       const height = 500;
-      const margin = { top: 0, right: 20, bottom: 30, left: 20 };
+      const margin = { top: 0, right: 20, bottom: 60, left: 40 };
       const data = this.data;
 
       let series = d3.stack().keys(this.keys).offset(d3.stackOffsetWiggle)(
@@ -160,6 +160,66 @@ export default {
         .text(({ key }) => key.toLowerCase());
 
       svg.append("g").call(xAxis);
+
+      let leftAxis = svg
+        .append("g")
+        .attr("transform", `translate(${margin.left / 2},0)`);
+
+      if (this.leftAxisArrow) {
+        let lineGroup = leftAxis
+          .append("g")
+          .style("stroke-width", 1)
+          .style("stroke", "#999")
+          .style("fill", "none");
+
+        lineGroup
+          .append("line")
+          .attr("x1", 0)
+          .attr("y1", margin.top)
+          .attr("x2", 0)
+          .attr("y2", height - margin.bottom);
+
+        lineGroup
+          .append("line")
+          .attr("x1", 0)
+          .attr("y1", margin.top)
+          .attr("x2", -7)
+          .attr("y2", margin.top + 7);
+
+        lineGroup
+          .append("line")
+          .attr("x1", 0)
+          .attr("y1", margin.top)
+          .attr("x2", 7)
+          .attr("y2", margin.top + 7);
+      }
+
+      leftAxis
+        .append("text")
+        .attr("dy", "0.25em")
+        .style("transform", "translate(0, 210px) rotate(-90deg)")
+        .style("text-anchor", "middle")
+        .style("font-size", "12px")
+        .text(this.leftAxisText);
+
+      let textBBox = leftAxis.select("text").node().getBBox();
+
+      leftAxis
+        .insert("rect", "text")
+        .style("transform", "translate(0, 210px) rotate(-90deg)")
+        .attr("x", textBBox.x - 10)
+        .attr("y", textBBox.y)
+        .attr("width", textBBox.width + 20)
+        .attr("height", textBBox.height)
+        .attr("fill", "white");
+
+      svg
+        .append("text")
+        .attr("x", margin.left + (width - margin.left - margin.right) / 2)
+        .attr("y", height - 25)
+        .style("text-anchor", "middle")
+        .style("font-size", "12px")
+        .text("chapters");
     },
   },
 };

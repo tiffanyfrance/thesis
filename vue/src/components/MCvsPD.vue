@@ -14,10 +14,10 @@
           </select>
         </p>
         <div class="flex-50">
-          <VariableArea :filePath="filePaths[book].MC" :shuffle="false" />
+          <VariableArea :filePath="filePaths[book].MC" :shuffle="false" leftAxisText="volume of emotion"/>
         </div>
         <div class="flex-50">
-          <VariableArea :filePath="filePaths[book].PD" :shuffle="false" />
+          <VariableArea :filePath="filePaths[book].PD" :shuffle="false" leftAxisText="volume of emotion"/>
         </div>
       </div>
     </div>
