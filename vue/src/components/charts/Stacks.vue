@@ -138,6 +138,7 @@ export default {
       const innerHeight = height - margin.top - margin.bottom;
 
       let chapters = svg
+        .style("font-size", "12px")
         .append("g")
         .selectAll("g")
         .data(data)
@@ -154,7 +155,7 @@ export default {
         .attr("x", sentenceWidth / 2)
         .attr("y", innerHeight + margin.bottom / 2)
         .style("text-anchor", "middle")
-        .text((d, i) => i + 1);
+        .text((d, i) => (data.length < 100 || (i + 1) % 5 === 0 ? i + 1 : ""));
 
       chapters
         .selectAll("rect")

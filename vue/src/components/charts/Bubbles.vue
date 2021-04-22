@@ -86,7 +86,7 @@ export default {
         .attr("y", height - margin.bottom / 2)
         .style("text-anchor", "middle")
         .style("fill", "#333")
-        .text((d, i) => i + 1);
+        .text((d, i) => (data.length < 100 || (i + 1) % 5 === 0 ? i + 1 : ""));
     },
   },
 };
