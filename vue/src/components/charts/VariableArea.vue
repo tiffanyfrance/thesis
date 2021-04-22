@@ -1,5 +1,12 @@
 <template>
-  <svg ref="svgContainer"></svg>
+  <div>
+    <!-- <div class="legend">
+      <span class="dot" style="background-color: #d53e4f"></span> anger
+      <span class="dot"></span> anticipation <span class="dot"></span> joy
+      <span class="dot"></span> trust
+    </div> -->
+    <svg ref="svgContainer"></svg>
+  </div>
 </template>
 
 <script>
@@ -228,5 +235,18 @@ export default {
 <style scoped>
 svg {
   width: 100%;
+}
+.legend {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 </style>
