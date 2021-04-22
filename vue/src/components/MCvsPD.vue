@@ -1,7 +1,35 @@
 <template>
   <div class="container white-container">
-    <h2>Meaning Cloud vs Parallel Dots</h2>
-    <h3>Stuff about Meaning Cloud.</h3>
+    <h2>Comparing APIs</h2>
+    <h3>
+      MeaningCloud and ParallelDots APIs return similiar emotion labels.
+      MeaningCloud uses Plutchik's model:
+      <span class="code">
+        [<span style="color: #eb3c39">anger</span>,
+        <span style="color: #ef673c">anticipation</span>,
+        <span style="color: #f8ec2d">joy</span>,
+        <span style="color: #d7e489">trust</span>,
+        <span style="color: #b5dcb7">fear</span>,
+        <span style="color: #00b4df">surprise</span>,
+        <span style="color: #0775ba">sadness</span>,
+        <span style="color: #64368f">disgust</span>]
+      </span>
+      ParallelDots uses six basic emotions:
+      <span class="code">
+        [<span style="color: #eb3c39">angry</span>,
+        <span style="color: rgb(247, 168, 59)">excited</span>,
+        <span style="color: #f8ec2d">happy</span>,
+        <span style="color: #b5dcb7">fear</span>,
+        <span style="color: #0775ba">sadness</span>,
+        <span style="color: rgb(152, 108, 155)">bored</span>]
+      </span>
+      This graph
+      shows differences between the two APIs, highlighting interesting (or
+      missing) patterns. A streamgraph has a central, flowing baseline, 
+      and shows changes over time for large amounts
+      of data including where values start and stop, and the length
+      of duration.
+    </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
         <p class="label">
@@ -14,10 +42,18 @@
           </select>
         </p>
         <div class="flex-50">
-          <VariableArea :filePath="filePaths[book].MC" :shuffle="false" leftAxisText="volume of emotion"/>
+          <VariableArea
+            :filePath="filePaths[book].MC"
+            :shuffle="false"
+            leftAxisText="volume of emotion"
+          />
         </div>
         <div class="flex-50">
-          <VariableArea :filePath="filePaths[book].PD" :shuffle="false" leftAxisText="volume of emotion"/>
+          <VariableArea
+            :filePath="filePaths[book].PD"
+            :shuffle="false"
+            leftAxisText="volume of emotion"
+          />
         </div>
       </div>
     </div>
@@ -55,5 +91,8 @@ export default {
 <style scoped lang="scss">
 img {
   max-height: 70vh;
+}
+.code span {
+  
 }
 </style>

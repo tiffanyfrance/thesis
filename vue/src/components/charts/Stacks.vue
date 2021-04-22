@@ -45,10 +45,10 @@ export default {
   methods: {
     buildChart() {
       const width = this.width;
-      const height = 650;
+      const height = 580;
       const spacing = 1;
       const halfSpacing = spacing / 2;
-      const margin = { top: 10, right: 10, bottom: 50, left: 10 };
+      const margin = { top: -30, right: 10, bottom: 40, left: 10 };
       const data = this.data;
 
       let scoreRange = {
@@ -138,7 +138,7 @@ export default {
       const innerHeight = height - margin.top - margin.bottom;
 
       let chapters = svg
-        .style("font-size", "12px")
+        .style("font-size", "10px")
         .append("g")
         .selectAll("g")
         .data(data)

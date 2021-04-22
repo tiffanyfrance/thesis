@@ -2,11 +2,11 @@
   <div class="container">
     <h2>Book Rendering</h2>
     <h3>
-      The psychoanalytic field lacks an official consensus on how to categorize
-      human emotions, however data scientists often use the schemas based on the
-      work of several prominent researchers, including Plutchik, Ekman, Parrot,
-      Tomkins, and Wilcox. The following models also contain color-emotion
-      assignment which are used in this project.
+      Below is a version of The War of the Worlds book cover
+      using the Hedonometer-Based dot chart. The colors are 
+      used, not for emotion labeling, but for intensity clustering
+      of sentiment values. A geometric-based font was used 
+      to fit with the genre of the book.
     </h3>
     <div class="subcontainer vertical-center">
       <img src="@/assets/war-of-worlds.png" alt="">

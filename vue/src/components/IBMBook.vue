@@ -2,8 +2,11 @@
   <div class="container lgray-container">
     <h2>Book Rendering</h2>
     <h3>
-      IBMBook Watson Suite Tone Analyzer evaluates emotions based on sentence
-      level, up to the first 100 sentences in a document.
+      IBM Watson
+      data was used to generate the partition block visualization
+      using the corpus of Pride and Prejudice. 
+      This visualization was imported into Illustrator, with
+      final touches and margin / typesetting done in InDesign.
     </h3>
     <div class="subcontainer vertical-center">
       <img src="@/assets/pride-and-prejudice.png" alt="Pride and Prejudice">

@@ -2,13 +2,14 @@
   <div class="container lgray-container">
     <h2>Gradient Based Visualization</h2>
     <h3>
-      I mapped colors for each emotion to
-      create a gradient, with hopes 
-      that the gradient would
-      express each emotion within a multihued pallette, 
-      visually bringing the strongest emotion(s) to the forefront. 
-      IBM offers evaluation at the document level, perfect for 
-      this layout.
+      IBM Tone Analyzer returns document level results for 
+      emotion labeling. In this visualization, each document 
+      level emotion percentage was mapped to a color in a 
+      gradient. The percentages add up to 100% producing the
+      gradient on the left. These percentages were used both 
+      in creating a 
+      <span class="code">linear-gradient()</span> and for producing
+      an Illustrator script on the right. 
     </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
@@ -124,12 +125,11 @@
         </div>
         <div class="flex-33">
           <p class="description">
-            I started with output from Tone Analyzer on the document level
-            labels. The output was divided by the total in order to get a
+            The output of Tone Analyzer for each emotion  
+            was divided by the total in order to get a
             percentage of the whole. Each value was assigned it's associated
             color with a "stop value" as the percentage. The values were
-            culmative, with the final value being 100%. This was applied to a
-            CSS gradient as seen on the left.
+            culmative, with the final value being 100%.
           </p>
           <div class="code">
             <pre>
@@ -220,14 +220,5 @@ img {
     #eb3c39 100%
   );
   float: left;
-}
-.text {
-  float: left;
-  padding-left: 20px;
-  text-align: left;
-  p,
-  span {
-    font-size: 12px;
-  }
 }
 </style>

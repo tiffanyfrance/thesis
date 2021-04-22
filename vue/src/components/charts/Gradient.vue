@@ -186,4 +186,12 @@ span.thin {
   font-weight: 200;
   color: #999;
 }
+.text {
+  float: left;
+  padding-left: 10px;
+  text-align: left;
+}
+p, span {
+    font-size: 12px;
+}
 </style>

@@ -2,12 +2,29 @@
   <div class="container white-container">
     <h2>Block Partitions (Sentence Level)</h2>
     <h3>
-      IBM Watson Suite Tone Analyzer evaluates emotions based on sentence level,
-      up to the first 100 sentences in a document.
+      In addition to returning document level values, 
+      IBM Watson Suite Tone Analyzer evaluates emotions based 
+      on sentence level, up to the first 100 sentences in a document.
+      This block partition graph shows the emotion percentage 
+      for each label. The white, empty space at the top indicates
+      the percentage of non-emotive sentences in the chapter, 
+      for instance the sentence "I went to the store" doesn't 
+      carry any implicit feeling. IBM contains 7 emotions: 
+      <span class="code">
+        [<span style="color: #eb3c39">anger</span>,
+        <span style="color: #ef673c">tentative</span>,
+        <span style="color: #f8ec2d">joy</span>,
+        <span style="color: #d7e489">confident</span>,
+        <span style="color: #b5dcb7">fear</span>,
+        <!-- <span style="color: #00b4df">analytical</span>, -->
+        <span style="color: #0775ba">sadness</span>,
+        <span style="color: #64368f">analytical</span>]
+      </span>  
     </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
-        <p>
+        <p class="label ibm-select">
+          Select a title:
           <select v-model="book" name="" id="">
             <option value="IBM/alice-in-wonderland-TA.json">
               Alice in Wonderland
@@ -93,5 +110,9 @@ export default {
 <style scoped lang="scss">
 img {
   max-height: 70vh;
+}
+.ibm-select.label {
+  margin-top: 80px;
+  margin-bottom: -20px;
 }
 </style>

@@ -1,16 +1,22 @@
 <template>
-  <div class="container white-container">
+  <div class="container white-container" id="hedonometer">
     <h2>Visualizing Keywords</h2>
     <h3>
-      The psychoanalytic field lacks an official consensus on how to categorize
-      human emotions, however data scientists often use the schemas based on the
-      work of several prominent researchers, including Plutchik, Ekman, Parrot,
-      Tomkins, and Wilcox. The following models also contain color-emotion
-      assignment which are used in this project.
+      <a href="https://hedonometer.org/words/labMT-en-v1/">
+      Lab-MT Hedonometer</a> is a list of over 10,000 words,
+      evaluated with a <a href="https://hedonometer.org/about.html">happiness ranking</a> from 0 to 10. 
+      The corpuses of 25 literary novels
+      were examined for occurances of the keywords. Over 80% 
+      of the words fell into the 4 to 7 range. Many of these 
+      mid-range words were unexceptional in tone, therefore, the 
+      visualization focuses only on the words that received 
+      scores higher that 7 or 3 and lower. Hover over a dot to 
+      view the word.
     </h3>
     <div class="subcontainer vertical-center">
       <div class="large-screens">
-        <p>
+        <p class="label">
+          Select a title:
           <select v-model="book" name="" id="">
             <option value="Hedonometer/alice-in-wonderland-hedonometer.json">
               Alice in Wonderland
@@ -137,5 +143,9 @@ img {
   margin: 0 auto;
   text-align: justify;
   margin-bottom: 60px;
+}
+#hedonometer .label {
+  margin-top: 70px;
+  margin-bottom: 0px;
 }
 </style>

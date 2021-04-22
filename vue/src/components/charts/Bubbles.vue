@@ -5,7 +5,7 @@
 <script>
 import * as d3 from "d3";
 
-const margin = { top: 20, right: 10, bottom: 80, left: 40 };
+const margin = { top: 20, right: 10, bottom: 100, left: 40 };
 
 export default {
   props: ["filePath"],
@@ -53,7 +53,7 @@ export default {
       let svg = d3
         .select(this.$refs.svgContainer)
         .attr("viewBox", [0, 0, width, height])
-        .style("font-size", "12px")
+        .style("font-size", "10px")
         .style("height", height)
         .style("width", width);
 
