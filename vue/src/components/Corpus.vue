@@ -1,50 +1,51 @@
 <template>
   <div class="container white-container">
     <h2>About this Project</h2>
+    <h3>
+      The initial goal was to include 100 out of print Project Gutenberg novels
+      in the project, however, due to time constraints and pay walls, the actual
+      number of books used as of May 2021 is about 25. The usage of this 
+      corpus is detailed below.
+    </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
         <div class="flex-50">
-          <h4>
-            Thesis Goal
-          </h4>
+          <h4>Thesis Goal</h4>
           <p class="description">
-            The purpose of this thesis is to evaluate text from 
-            Project Gutenberg novels using the Natural Language 
-            Processing (NLP) task of Emotion Recognition. The project
-            contains three parts.
+            The purpose of this thesis is to evaluate text from Project
+            Gutenberg novels using the Natural Language Processing (NLP) task of
+            Emotion Recognition. The project contains three parts.
           </p>
-          <h5>Part I: Machine Learning</h5>
-          <p class="description"> 
-            The project uses propriatary APIs, open source APIs,
-            research, and hand crafted solutions in order to 
-            classify the corpuses with the apporpriate 
-            emotion label.
+          <h4>Part I: Machine Learning</h4>
+          <p class="description">
+            The project attempts to explain and utilize the current research in
+            Emotion Recognition and Natural Language Processing Sentiment
+            tracking. Python and Jupyter Notebooks are used for data collection.
           </p>
-          <h5>Part II: Visualization</h5>
-          <p class="description"> 
-            The project uses propriatary APIs, open source APIs,
-            research, and hand crafted solutions in order to 
-            classify the corpuses with the apporpriate 
-            emotion label.
+          <h4>Part II: Visualization</h4>
+          <p class="description">
+            Visualizations for this project are specifically designed in order
+            to best represent the data. Consideration has been given to both UX
+            readability and integrity in relaying truthful information.
           </p>
-          <h5>Part III: Book Production and Publication</h5>
-          <p class="description"> 
-            The project uses propriatary APIs, open source APIs,
-            research, and hand crafted solutions in order to 
-            classify the corpuses with the apporpriate 
-            emotion label.
+          <h4>Part III: Book Production and Publication</h4>
+          <p class="description">
+            Finally, the goal of this project is to create meaningful, data
+            driven book covers for classic literature. This goal includes
+            designing, typesetting, and printing physical books (in accordance
+            with US copyright laws).
           </p>
         </div>
         <div class="flex-50">
           <h4>Project Gutenberg</h4>
           <p class="description">
-            Project Gutenberg is a crowd sourced project containing 
-            digitial copies of over 60,000 books. Many, but not 
-            all, of the titles in Project Gutenberg are considered
-            royalty-free. The books used here are more than 100 years 
-            old, with authors deceased for more than 70 years,
-            meaning they are open to reprint in the original form 
-            without penalty in the US.
+            Project Gutenberg is a crowd sourced project containing digitial
+            copies of over 60,000 books. Many, but not all, of the titles in
+            Project Gutenberg are considered royalty-free. The books used here
+            are more than 100 years old, with authors deceased for more than 70
+            years, meaning they are open to reprint in the original form without
+            penalty in the US. Below is a sample of handcrafted data, using
+            Project Gutenberg's book ids.
           </p>
           <div class="code-snippet">
             <!-- don't autoformat - formatting of code in this doc is important -->
