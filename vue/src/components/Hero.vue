@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="hero" class="container">
     <div class="vertical-center">
       <h1>Emotion-Driven<br />Literary Bindings</h1>
       <p>
@@ -21,4 +21,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+#hero.container {
+  height: 100vh;
+  .vertical-center {
+    top: 45%;
+  }
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container white-container">
+  <div id="corpus" class="container white-container">
     <h2>About this Project</h2>
     <h3>
       The initial goal was to include 100 out of print Project Gutenberg novels
@@ -47,7 +47,8 @@
             penalty in the US. Below is a sample of handcrafted data, using
             Project Gutenberg's book ids.
           </p>
-          <div class="code-snippet">
+
+            <div class="code-snippet">
             <!-- don't autoformat - formatting of code in this doc is important -->
             <pre>
           <code class="html code">
@@ -72,6 +73,7 @@
           </code>
           </pre>
           </div>
+        
         </div>
       </div>
     </div>
@@ -104,5 +106,34 @@ img {
 .code-snippet {
   max-width: 400px;
   margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .description {
+    width: 80vw;
+  }
+  h3 {
+    margin-bottom: 50px;
+  }
+  h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .flex-50 {
+    float: none;
+  }
+  #corpus.container {
+    height: auto;
+    top: auto;
+    padding-bottom: 60px;
+  }
+  #corpus .subcontainer.vertical-center {
+    position: relative;
+    transform: translateY(0);
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    // max-height: calc(100vh + 60px);
+    max-height: initial;
+  }
 }
 </style>

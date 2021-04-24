@@ -138,4 +138,10 @@ table {
 td {
   text-align: center;
 }
+@media (max-width: 768px) {
+  .flex-33 {
+    float: none;
+    width: 100%;
+  }
+}
 </style>

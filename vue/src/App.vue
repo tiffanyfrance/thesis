@@ -1,26 +1,21 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <Hero />
-  <Corpus />
-  <Emotion />
-  <APIs />
   <MC />
   <MCBook />
   <MCvsPD />
   <MCvsPDReflection />
-  <Rainbow />
+  <!-- <Rainbow /> -->
   <RainbowBook />
   <IBM />
   <IBMBook />
   <Hedonometer />
   <HedonometerBook />
-  <Compare />
-  <!-- <LIMBIC />
-  <LIMBICBook /> -->
-  <!-- <SVM /> -->
-  <!-- <TryIt /> -->
-  <!-- <Purchase /> -->
-  <Conclusion />
+  <!-- <Compare /> -->
+  <!-- <Conclusion /> -->
+  <Corpus />
+  <Emotion />
+  <APIs />
   <!-- <Final /> -->
 </template>
 
@@ -34,38 +29,34 @@ import MCvsPD from "./components/MCvsPD.vue";
 import MCvsPDReflection from "./components/MCvsPDReflection.vue";
 import IBM from "./components/IBM.vue";
 import IBMBook from "./components/IBMBook.vue";
-import Emotion from "./components/EmotionModels.vue";
-import Rainbow from "./components/Rainbow.vue";
+// import Rainbow from "./components/Rainbow.vue";
 import RainbowBook from "./components/RainbowBook.vue";
 import Hedonometer from "./components/Hedonometer.vue";
 import HedonometerBook from "./components/HedonometerBook.vue";
-import Compare from "./components/Compare.vue";
-// import LIMBIC from "./components/LIMBIC.vue";
-// import LIMBICBook from "./components/LIMBICBook.vue";
-import Conclusion from "./components/Conclusion.vue";
+// import Compare from "./components/Compare.vue";
+// import Conclusion from "./components/Conclusion.vue";
+import Emotion from "./components/EmotionModels.vue";
 // import Final from "./components/Final.vue";
 
 export default {
   name: "App",
   components: {
     Hero,
-    Corpus,
-    APIs,
     MC,
     MCBook,
     MCvsPD,
     MCvsPDReflection,
     IBM,
     IBMBook,
-    Emotion,
-    Rainbow,
+    // Rainbow,
     RainbowBook,
     Hedonometer,
     HedonometerBook,
-    Compare,
-    // LIMBIC,
-    // LIMBICBook,
-    Conclusion,
+    // Compare,
+    // Conclusion,
+    Corpus,
+    Emotion,
+    APIs,
     // Final,
   },
   data() {
@@ -89,7 +80,8 @@ body {
   // background-repeat: no-repeat;
   // height: 100vh;
   // max-width: 1200px;
-  min-width: 1280px;
+  // min-width: 1280px;
+  width: 100vw;
   margin: 0 auto;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

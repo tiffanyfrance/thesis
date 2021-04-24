@@ -139,6 +139,11 @@ export default {
         .attr("viewBox", [0, 0, width, height])
         .style("height", height)
         .style("width", width);
+        // .style("transform-origin", "bottom left")
+        // .style(
+        //   "transform",
+        //   `rotate(90deg) translateX(${(-1 * this.width) / 2}px)`
+        // );
 
       svg.selectAll("*").remove();
 
