@@ -5,7 +5,7 @@
   <MCBook />
   <MCvsPD />
   <MCvsPDReflection />
-  <!-- <Rainbow /> -->
+  <Rainbow />
   <RainbowBook />
   <IBM />
   <IBMBook />
@@ -29,7 +29,7 @@ import MCvsPD from "./components/MCvsPD.vue";
 import MCvsPDReflection from "./components/MCvsPDReflection.vue";
 import IBM from "./components/IBM.vue";
 import IBMBook from "./components/IBMBook.vue";
-// import Rainbow from "./components/Rainbow.vue";
+import Rainbow from "./components/Rainbow.vue";
 import RainbowBook from "./components/RainbowBook.vue";
 import Hedonometer from "./components/Hedonometer.vue";
 import HedonometerBook from "./components/HedonometerBook.vue";
@@ -48,7 +48,7 @@ export default {
     MCvsPDReflection,
     IBM,
     IBMBook,
-    // Rainbow,
+    Rainbow,
     RainbowBook,
     Hedonometer,
     HedonometerBook,

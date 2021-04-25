@@ -1,0 +1,97 @@
+[
+    {
+        "chapter": 1,
+        "joy": "59",
+        "trust": "50",
+        "sadness": "29",
+        "anger": "27",
+        "surprise": "27",
+        "fear": "19",
+        "disgust": "17"
+    },
+    {
+        "chapter": 2,
+        "joy": "28",
+        "trust": "21",
+        "anger": "20",
+        "sadness": "18",
+        "disgust": "15",
+        "anticipation": "13",
+        "surprise": "13",
+        "fear": "8"
+    },
+    {
+        "chapter": 3,
+        "joy": "56",
+        "trust": "44",
+        "surprise": "35",
+        "sadness": "27",
+        "anger": "24",
+        "anticipation": "21",
+        "fear": "11",
+        "disgust": "7"
+    },
+    {
+        "chapter": 4,
+        "joy": "39",
+        "trust": "31",
+        "anger": "20",
+        "surprise": "19",
+        "anticipation": "17",
+        "sadness": "17",
+        "fear": "12",
+        "disgust": "7"
+    },
+    {
+        "chapter": 5,
+        "joy": "42",
+        "sadness": "26",
+        "trust": "21",
+        "fear": "19",
+        "surprise": "18",
+        "anticipation": "11",
+        "disgust": "9",
+        "anger": "6"
+    },
+    {
+        "chapter": 6,
+        "joy": "33",
+        "trust": "28",
+        "disgust": "15",
+        "surprise": "14",
+        "anger": "12",
+        "sadness": "12",
+        "fear": "11"
+    },
+    {
+        "chapter": 7,
+        "joy": "83",
+        "trust": "60",
+        "surprise": "44",
+        "anger": "40",
+        "sadness": "35",
+        "disgust": "33",
+        "fear": "33"
+    },
+    {
+        "chapter": 8,
+        "joy": "47",
+        "trust": "44",
+        "sadness": "29",
+        "surprise": "21",
+        "anger": "18",
+        "fear": "17",
+        "anticipation": "16",
+        "disgust": "10"
+    },
+    {
+        "chapter": 9,
+        "trust": "28",
+        "joy": "26",
+        "sadness": "21",
+        "surprise": "21",
+        "disgust": "19",
+        "anger": "17",
+        "fear": "14"
+    }
+]

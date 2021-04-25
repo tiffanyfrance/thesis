@@ -1,0 +1,33 @@
+[
+    {
+        "chapter": "1",
+        "trust": "136",
+        "joy": "105",
+        "sadness": "36",
+        "disgust": "33",
+        "anticipation": "29",
+        "anger": "20",
+        "surprise": "13"
+    },
+    {
+        "chapter": "2",
+        "joy": "146",
+        "trust": "125",
+        "sadness": "78",
+        "anticipation": "51",
+        "disgust": "47",
+        "anger": "30",
+        "surprise": "14"
+    },
+    {
+        "chapter": "3",
+        "trust": "50",
+        "anticipation": "34",
+        "joy": "33",
+        "sadness": "25",
+        "disgust": "22",
+        "anger": "21",
+        "surprise": "17",
+        "fear": "14"
+    }
+]

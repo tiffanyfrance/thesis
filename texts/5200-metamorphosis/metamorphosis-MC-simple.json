@@ -1,0 +1,35 @@
+[
+    {
+        "chapter": 1,
+        "sadness": "48",
+        "anticipation": "34",
+        "joy": "27",
+        "trust": "27",
+        "anger": "23",
+        "fear": "19",
+        "disgust": "16",
+        "surprise": "15"
+    },
+    {
+        "chapter": 2,
+        "sadness": "50",
+        "joy": "43",
+        "anticipation": "34",
+        "trust": "24",
+        "fear": "20",
+        "anger": "16",
+        "disgust": "15",
+        "surprise": "15"
+    },
+    {
+        "chapter": 3,
+        "sadness": "42",
+        "anticipation": "36",
+        "joy": "33",
+        "trust": "32",
+        "surprise": "27",
+        "anger": "20",
+        "disgust": "18",
+        "fear": "15"
+    }
+]

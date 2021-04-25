@@ -3,7 +3,7 @@
     <h2>Comparing APIs</h2>
     <h3>
       MeaningCloud and ParallelDots APIs return similiar emotion labels.
-      MeaningCloud uses Plutchik's model:
+      MeaningCloud identifies eight emotions:
       <span class="code">
         [<span style="color: #eb3c39">anger</span>,
         <span style="color: #ef673c">anticipation</span>,
@@ -12,7 +12,7 @@
         <span style="color: #b5dcb7">fear</span>,
         <span style="color: #00b4df">surprise</span>,
         <span style="color: #0775ba">sadness</span>,
-        <span style="color: #64368f">disgust</span>]
+        <span style="color: #64368f">disgust</span>].
       </span>
       ParallelDots uses six basic emotions:
       <span class="code">
@@ -21,13 +21,11 @@
         <span style="color: #f8ec2d">happy</span>,
         <span style="color: #b5dcb7">fear</span>,
         <span style="color: #0775ba">sadness</span>,
-        <span style="color: rgb(152, 108, 155)">bored</span>]
+        <span style="color: rgb(152, 108, 155)">bored</span>].
       </span>
-      This graph
-      shows differences between the two APIs, highlighting interesting (or
-      missing) patterns. A streamgraph has a central, flowing baseline, 
-      and shows changes over time for large amounts
-      of data including where values start and stop, and the length
+      Below shows differences between the APIs using a streamgraph.
+      The central, flowing baseline, indicates changes over time 
+      including where values start and stop, and the length
       of duration.
     </h3>
     <div class="subcontainer vertical-center flex-container">
@@ -42,6 +40,7 @@
           </select>
         </p>
         <div class="flex-50">
+          <h4>API 1: MeaningCloud</h4>
           <VariableArea
             :filePath="filePaths[book].MC"
             :shuffle="false"
@@ -49,6 +48,7 @@
           />
         </div>
         <div class="flex-50">
+          <h4>API 2: ParallelDots</h4>
           <VariableArea
             :filePath="filePaths[book].PD"
             :shuffle="false"

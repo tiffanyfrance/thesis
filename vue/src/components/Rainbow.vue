@@ -2,14 +2,12 @@
   <div class="container lgray-container">
     <h2>Gradient Based Visualization</h2>
     <h3>
-      IBM Tone Analyzer returns document level results for 
-      emotion labeling. In this visualization, each document 
-      level emotion percentage was mapped to a color in a 
-      gradient. The percentages add up to 100% producing the
-      gradient on the left. These percentages were used both 
-      in creating a 
-      <span class="code">linear-gradient()</span> and for producing
-      an Illustrator script on the right. 
+      IBM Tone Analyzer returns document level results for emotion labeling. In
+      this visualization, each document level emotion percentage was mapped to a
+      color in a gradient. The percentages add up to 100% producing the gradient
+      on the left. These percentages were used both in creating a
+      <span class="code">linear-gradient()</span> and for producing an
+      Illustrator script on the right.
     </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
@@ -21,62 +19,62 @@
                 <option value="IBM/alice-in-wonderland-TA.json">
                   Alice in Wonderland
                 </option>
-                <option value="IBM/through-the-looking-glass-TA.json">
-                  Through the Looking-Glass
-                </option>
-                <option value="IBM/wuthering-heights-TA.json">
-                  Wuthering Heights
-                </option>
-                <option value="IBM/frankenstein-TA.json">Frankenstein</option>
-                <option value="IBM/pride-and-prejudice-TA.json">
-                  Pride and Prejudice
-                </option>
-                <option value="IBM/importance-of-being-ernest-TA.json">
-                  Importance of Being Ernest
-                </option>
-                <option value="IBM/moby-dick-TA.json">Moby Dick</option>
-                <option value="IBM/twenty-thousand-leagues-TA.json">
-                  Twenty Thousand Leagues Under the Sea
-                </option>
-                <option value="IBM/tale-of-two-cities-TA.json">
-                  Tale of Two Cities
-                </option>
-                <option value="IBM/picture-of-dorian-gray-TA.json">
-                  Picture of Dorian Gray
-                </option>
-                <option value="IBM/great-gatsby-TA.json">Great Gatsby</option>
-                <option value="IBM/metamorphosis-TA.json">Metamorphosis</option>
-                <option value="IBM/dracula-TA.json">Dracula</option>
-                <option value="IBM/jane-eyre-TA.json">Jane Eyre</option>
-                <option value="IBM/heart-of-darkness-TA.json">
-                  Heart of Darkness
-                </option>
                 <option value="IBM/huck-finn-TA.json">
                   The Adventures of Huckleberry Finn
                 </option>
-                <option value="IBM/secret-garden-TA.json">
-                  The Secret Garden
-                </option>
-                <option value="IBM/war-of-the-worlds-TA.json">
-                  The War of the Worlds
-                </option>
-                <option value="IBM/anna-karenina-TA.json">Anna Karenina</option>
-                <option value="IBM/uncle-tom-TA.json">Uncle Tom's Cabin</option>
-                <option value="IBM/little-women-TA.json">Little Women</option>
-                <option value="IBM/scarlet-letter-TA.json">
-                  The Scarlet Letter
-                </option>
-                <option value="IBM/dr-jekyll-TA.json">
-                  The Strange Case of Dr Jekyll and Mr Hyde
+                <option value="IBM/sherlock-holmes-TA.json">
+                  The Adventures of Sherlock Holmes
                 </option>
                 <option value="IBM/tom-sawyer-TA.json">
                   The Adventures of Tom Sawyer
                 </option>
+                <option value="IBM/anna-karenina-TA.json">Anna Karenina</option>
+                <option value="IBM/dracula-TA.json">Dracula</option>
+                <option value="IBM/frankenstein-TA.json">Frankenstein</option>
+                <option value="IBM/great-gatsby-TA.json">Great Gatsby</option>
+                <option value="IBM/heart-of-darkness-TA.json">
+                  Heart of Darkness
+                </option>
+                <option value="IBM/importance-of-being-ernest-TA.json">
+                  Importance of Being Ernest
+                </option>
+                <option value="IBM/jane-eyre-TA.json">Jane Eyre</option>
+                <option value="IBM/little-women-TA.json">Little Women</option>
+                <option value="IBM/metamorphosis-TA.json">Metamorphosis</option>
+                <option value="IBM/moby-dick-TA.json">Moby Dick</option>
+                <option value="IBM/picture-of-dorian-gray-TA.json">
+                  Picture of Dorian Gray
+                </option>
+                <option value="IBM/pride-and-prejudice-TA.json">
+                  Pride and Prejudice
+                </option>
+                <option value="IBM/scarlet-letter-TA.json">
+                  The Scarlet Letter
+                </option>
+                <option value="IBM/secret-garden-TA.json">
+                  The Secret Garden
+                </option>
+                <option value="IBM/dr-jekyll-TA.json">
+                  The Strange Case of Dr Jekyll and Mr Hyde
+                </option>
+                <option value="IBM/tale-of-two-cities-TA.json">
+                  Tale of Two Cities
+                </option>
                 <option value="IBM/tess-TA.json">
                   Tess of the d’Urbervilles
                 </option>
-                <option value="IBM/sherlock-holmes-TA.json">
-                  The Adventures of Sherlock Holmes
+                <option value="IBM/through-the-looking-glass-TA.json">
+                  Through the Looking-Glass
+                </option>
+                <option value="IBM/twenty-thousand-leagues-TA.json">
+                  Twenty Thousand Leagues Under the Sea
+                </option>
+                <option value="IBM/uncle-tom-TA.json">Uncle Tom's Cabin</option>
+                <option value="IBM/war-of-the-worlds-TA.json">
+                  The War of the Worlds
+                </option>
+                <option value="IBM/wuthering-heights-TA.json">
+                  Wuthering Heights
                 </option>
               </select>
             </p>
@@ -125,11 +123,11 @@
         </div>
         <div class="flex-33">
           <p class="description">
-            The output of Tone Analyzer for each emotion  
-            was divided by the total in order to get a
-            percentage of the whole. Each value was assigned it's associated
-            color with a "stop value" as the percentage. The values were
-            culmative, with the final value being 100%.
+            The output of Tone Analyzer for each emotion was divided by the
+            total in order to get a percentage of the whole. Each value was
+            assigned it's associated color with a "stop value" as the
+            percentage. The values were culmative, with the final value being
+            100%.
           </p>
           <div class="code">
             <pre>

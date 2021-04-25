@@ -1,0 +1,23 @@
+[
+{"chapter": 1, "joy": "7", "sadness": "5", "trust": "4", "anger": "2", "disgust": "2", "anticipation": "1", "fear": "1"},
+{"chapter": 2, "joy": "65", "trust": "64", "anger": "26", "disgust": "25", "fear": "22", "sadness": "20", "anticipation": "14", "surprise": "11"},
+{"chapter": 3, "joy": "73", "disgust": "39", "sadness": "36", "trust": "30", "anger": "17", "surprise": "17", "anticipation": "13"},
+{"chapter": 4, "joy": "89", "trust": "49", "sadness": "27", "anger": "24", "fear": "23", "disgust": "17", "surprise": "14", "anticipation": "9"},
+{"chapter": 5, "joy": "103", "trust": "68", "anger": "31", "disgust": "28", "anticipation": "21", "fear": "20", "sadness": "20", "surprise": "11"},
+{"chapter": 6, "joy": "90", "trust": "71", "anger": "36", "disgust": "31", "sadness": "25", "fear": "24", "anticipation": "13", "surprise": "9"},
+{"chapter": 7, "joy": "82", "trust": "52", "disgust": "18", "anger": "12", "anticipation": "11", "sadness": "10", "fear": "9", "surprise": "5"},
+{"chapter": 8, "joy": "89", "trust": "52", "sadness": "46", "disgust": "38", "fear": "30", "anger": "24", "surprise": "15", "anticipation": "5"},
+{"chapter": 9, "joy": "73", "fear": "53", "sadness": "43", "trust": "41", "disgust": "36", "anger": "17", "anticipation": "15", "surprise": "14"},
+{"chapter": 10, "joy": "42", "trust": "38", "sadness": "28", "anger": "15", "disgust": "15", "surprise": "15", "anticipation": "3"},
+{"chapter": 11, "joy": "28", "disgust": "22", "fear": "22", "sadness": "20", "trust": "16", "anger": "11", "anticipation": "9", "surprise": "8"},
+{"chapter": 12, "joy": "113", "disgust": "62", "trust": "47", "sadness": "46", "fear": "45", "anger": "36", "anticipation": "32", "surprise": "21"},
+{"chapter": 13, "trust": "25", "disgust": "18", "joy": "18", "fear": "12", "sadness": "11", "anger": "10", "anticipation": "3", "surprise": "1"},
+{"chapter": 14, "sadness": "22", "disgust": "21", "anger": "16", "fear": "14", "surprise": "9", "joy": "8", "trust": "6", "anticipation": "5"},
+{"chapter": 15, "disgust": "44", "anger": "31", "joy": "30", "sadness": "26", "fear": "17", "trust": "17", "surprise": "13", "anticipation": "11"},
+{"chapter": 16, "joy": "53", "trust": "35", "sadness": "28", "disgust": "25", "anger": "13", "surprise": "10", "anticipation": "4"},
+{"chapter": 17, "disgust": "47", "sadness": "30", "anger": "26", "fear": "21", "joy": "17", "trust": "11", "surprise": "8", "anticipation": "3"},
+{"chapter": 18, "joy": "34", "trust": "24", "fear": "12", "anger": "11", "sadness": "10", "disgust": "9", "anticipation": "7", "surprise": "7"},
+{"chapter": 19, "disgust": "30", "joy": "30", "sadness": "27", "trust": "27", "fear": "25", "anger": "15", "surprise": "14", "anticipation": "13"},
+{"chapter": 20, "joy": "68", "trust": "40", "sadness": "27", "fear": "16", "disgust": "15", "anger": "10", "anticipation": "8", "surprise": "7"},
+{"chapter": 21, "disgust": "30", "sadness": "17", "anger": "16", "joy": "16", "fear": "15", "anticipation": "4", "trust": "3", "surprise": "2"}
+]

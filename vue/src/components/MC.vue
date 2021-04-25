@@ -27,13 +27,38 @@
             <option value="MC/alice-in-wonderland-simple.csv">
               Alice in Wonderland
             </option>
+            <option value="MC/huck-finn-simple.csv">
+              The Adventures of Huckleberry Finn
+            </option>
+            <option value="MC/sherlock-holmes-simple.csv">
+              The Adventures of Sherlock Holmes
+            </option>
+            <option value="MC/tom-sawyer-simple.csv">
+              The Adventures of Tom Sawyer
+            </option>
+            <option value="MC/anna-karenina-simple.csv">Anna Karenina</option>
+            <option value="MC/dracula-simple.csv">Dracula</option>
+            <option value="MC/frankenstein-simple.csv">Frankenstein</option>
+            <option value="MC/great-gatsby-simple.csv">The Great Gatsby</option>
+            <option value="MC/heart-of-darkness-simple.csv">Heart of Darkness</option>
+            <option value="MC/importance-of-being-ernest-simple.csv">The Importance of Being Ernest</option>
+            <option value="MC/jane-eyre-simple.csv">Jane Eyre</option>
+            <option value="MC/little-women-simple.csv">Little Women</option>
+            <option value="MC/metamorphosis-simple.csv">Metamorphosis</option>
+            <option value="MC/moby-dick-simple.csv">Moby Dick</option>
+            <option value="MC/picture-of-dorian-gray-simple.csv">The Picture of Dorian Gray</option>
+            <option value="MC/pride-and-prejudice-simple.csv">Pride and Prejudice</option>
+            <option value="MC/scarlet-letter-simple.csv">The Scarlet Letter</option>
+            <option value="MC/secret-garden-simple.csv">The Secret Garden</option>
             <option value="MC/through-the-looking-glass.csv">
               Through the Looking Glass
+            </option>
+             <option value="MC/war-of-worlds-simple.csv">
+              The War of the Worlds
             </option>
             <option value="MC/wuthering-heights-simple.csv">
               Wuthering Heights
             </option>
-            <option value="MC/anna-karenina-simple.csv">Anna Karenina</option>
           </select>
         </p>
         <VariableArea
