@@ -34,8 +34,20 @@
           Select a title:
           <select v-model="book">
             <option value="alice-in-wonderland">Alice in Wonderland</option>
+            <option value="frankenstein">
+              Frankenstein
+            </option>
+            <option value="importance-of-being-ernest">
+              The Importance of Being Ernest
+            </option>
+            <option value="pride-and-prejudice">
+              Pride and Prejudice
+            </option>
             <option value="through-the-looking-glass">
               Through the Looking Glass
+            </option>
+            <option value="wuthering-heights">
+              Wuthering Heights
             </option>
           </select>
         </p>
@@ -80,6 +92,22 @@ export default {
           MC: "MC/through-the-looking-glass.csv",
           PD: "PD/through-the-looking-glass-PD.csv",
         },
+        "frankenstein": {
+          MC: "MC/frankenstein-simple.csv",
+          PD: "PD/frankenstein-PD.csv",
+        },
+        "importance-of-being-ernest": {
+          MC: "MC/importance-of-being-ernest-simple.csv",
+          PD: "PD/importance-of-being-ernest-PD.csv",
+        },
+        "pride-and-prejudice": {
+          MC: "MC/pride-and-prejudice-simple.csv",
+          PD: "PD/pride-and-prejudice-PD.csv",
+        },
+        "wuthering-heights": {
+          MC: "MC/wuthering-heights-simple.csv",
+          PD: "PD/wuthering-heights-PD.csv",
+        },
       },
       book: "alice-in-wonderland",
     };
@@ -91,8 +119,5 @@ export default {
 <style scoped lang="scss">
 img {
   max-height: 70vh;
-}
-.code span {
-  
 }
 </style>
