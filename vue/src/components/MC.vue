@@ -1,6 +1,6 @@
 <template>
   <div class="container white-container">
-    <h2>Variable Line Chart</h2>
+    <h2>Emotion Strength Over Time</h2>
     <h3>
       Variable line charts work by showing the intensity of an emotion within
       the line - the thicker the line, the stronger the value. Additionally, the
@@ -50,9 +50,13 @@
             <option value="MC/pride-and-prejudice-simple.csv">Pride and Prejudice</option>
             <option value="MC/scarlet-letter-simple.csv">The Scarlet Letter</option>
             <option value="MC/secret-garden-simple.csv">The Secret Garden</option>
+            <option value="MC/dr-jekyll-simple.csv">Strange Case of Dr Jekyll and Mr Hyde</option>
+            <option value="MC/tale-of-two-cities-simple.csv">Tale of Two Cities</option>
             <option value="MC/through-the-looking-glass.csv">
               Through the Looking Glass
             </option>
+            <option value="MC/twenty-thousand-simple.csv">Twenty Thousand Leagues Under the Sea</option>
+            <option value="MC/uncle-tom-simple.csv">Uncle Tom's Cabin</option>
              <option value="MC/war-of-worlds-simple.csv">
               The War of the Worlds
             </option>
