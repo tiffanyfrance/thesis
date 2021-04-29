@@ -8,7 +8,7 @@
       Futura typeface.
     </h3>
     <div class="subcontainer vertical-center flex-container">
-      <img src="@/assets/frankenstein.png" alt="" />
+      <img src="@/assets/frankenstein-3.png" alt="" />
     </div>
   </div>
 </template>

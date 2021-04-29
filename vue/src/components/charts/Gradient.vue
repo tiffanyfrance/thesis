@@ -169,8 +169,8 @@ function emptyTones() {
 
 <style scoped>
 .gradient {
-  width: 300px;
-  height: calc(100vh - 360px);
+  width: calc(100% - 70px);
+  height: calc(100vh - 320px);
   background: linear-gradient(
     120deg,
     #64368f 10.36%,
