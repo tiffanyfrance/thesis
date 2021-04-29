@@ -3,8 +3,6 @@
   <Hero />
   <MC />
   <MCBook />
-  <MCvsPD />
-  <MCvsPDReflection />
   <Rainbow />
   <RainbowBook />
   <IBM />
@@ -16,6 +14,8 @@
   <Corpus />
   <Emotion />
   <APIs />
+  <MCvsPD />
+  <MCvsPDReflection />
   <!-- <Final /> -->
 </template>
 

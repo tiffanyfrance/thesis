@@ -151,6 +151,8 @@ pre {
     max-height: initial;
     position: relative;
     transform: translateY(0);
+    width: calc(100% - 40px);
+    padding: 0px 10px;
   }
   .flex-50, .flex-33, .flex-25  {
     float: none;
