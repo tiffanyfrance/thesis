@@ -1,9 +1,9 @@
 <template>
   <div id="hero" class="container">
     <div class="vertical-center">
-      <h1>Emotion-Driven<br />Literary Bindings</h1>
+      <h1>Emotion Driven<br />Literary Bindings</h1>
       <p>
-        Using NLP Models to Produce Emotion-Labeled Data for Visualizing Book
+        Using NLP Models to Produce Emotion Labeled Data for Visualizing Book
         Cover Art
       </p>
     </div>

@@ -97,17 +97,14 @@ p {
 .flex-25 {
   width: 25%;
   float: left;
-  clear: both;
 }
 .flex-33 {
   width: 33%;
   float: left;
-  clear: both;
 }
 .flex-50 {
   width: 50%;
   float: left;
-  clear: both;
 }
 .no-margin-top {
   margin-top: 0px;
@@ -157,6 +154,7 @@ pre {
   .flex-50, .flex-33, .flex-25  {
     float: none;
     width: 100%;
+    clear: both;
   }
   img {
     max-width: 90%;
