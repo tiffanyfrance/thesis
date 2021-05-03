@@ -1,8 +1,8 @@
 <img src="preview.png" style="width: 100%" />
 
-# Generating Book Cover Art Using Emotion Detected Labels in Classical Literature
+# Literary Book Bindings
 
-## Deriving patterns from the emotional landcape of literary texts between 1800-1920
+## Generating Book Cover Art Using Emotion Detected Labels in Classical Literature
 
 ### Abstract
 This thesis uses machine learning emotion classification processes in order to create emotionally representative book covers. Both proprietary and hand crafted APIs are used to analyze emotions found in the corpuses of the 25 high ranking books from Project Gutenberg. Multiple emotion recognition models are evaluated for accuracy and value within the literary space. The machine learning models are then compared to human evaluations of emotions, based on existing psychoanalytic research. Results indicate that machine learning models are able to adequately predict the emotions in novels and generate supporting book cover art.
