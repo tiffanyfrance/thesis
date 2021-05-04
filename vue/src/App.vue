@@ -10,7 +10,7 @@
   <Hedonometer />
   <HedonometerBook />
   <Compare />
-  <!-- <Conclusion /> -->
+  <Conclusion />
   <Corpus />
   <Emotion />
   <APIs />
@@ -34,7 +34,7 @@ import RainbowBook from "./components/RainbowBook.vue";
 import Hedonometer from "./components/Hedonometer.vue";
 import HedonometerBook from "./components/HedonometerBook.vue";
 import Compare from "./components/Compare.vue";
-// import Conclusion from "./components/Conclusion.vue";
+import Conclusion from "./components/Conclusion.vue";
 import Emotion from "./components/EmotionModels.vue";
 // import Final from "./components/Final.vue";
 
@@ -53,7 +53,7 @@ export default {
     Hedonometer,
     HedonometerBook,
     Compare,
-    // Conclusion,
+    Conclusion,
     Corpus,
     Emotion,
     APIs,

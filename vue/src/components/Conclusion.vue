@@ -24,8 +24,9 @@
           <!-- <h4>Purchase Books</h4> -->
           <div class="flex-33">
           <h4>Alice in Wonderland</h4>
-            <img src="@/assets/bn/bn-alice.png" alt="Alice in Wonderland Barnes and Nobles"><br /><br />
-            <button>View at Barnes and Nobles</button>
+            <img src="@/assets/bn/bn-alice.png" alt="Purchase Alice in Wonderland at Barnes and Nobles"><br /><br />
+            <a href="https://www.barnesandnoble.com/w?ean=9781666270631" target="_blank" class="button">
+            View at Barnes and Nobles</a>
           </div>
           <div class="flex-33">
           <h4>Wuthering Heights</h4>
