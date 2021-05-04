@@ -74,20 +74,11 @@ body {
   margin: 0px;
 }
 #app {
-  // background-image: url('./assets/background@2x.png');
-  // background-size: contain;
-  // background-position-y: -300px;
-  // background-repeat: no-repeat;
-  // height: 100vh;
-  // max-width: 1200px;
-  // min-width: 1280px;
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  // color: #2c3e50;
   margin-top: 0px;
 }
 </style>

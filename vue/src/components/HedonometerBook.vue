@@ -30,7 +30,7 @@ export default {
   margin: 0 auto;
 }
 img {
-  max-height: 60vh;
+  max-height: 70vh;
 }
 .description {
   font-weight: 200;

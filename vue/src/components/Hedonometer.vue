@@ -145,7 +145,6 @@ img {
   margin-bottom: 60px;
 }
 #hedonometer .label {
-  margin-top: 70px;
   margin-bottom: 0px;
 }
 </style>

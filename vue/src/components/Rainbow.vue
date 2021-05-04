@@ -9,47 +9,38 @@
       <span class="code">linear-gradient()</span> and for producing an
       Illustrator script on the right.
     </h3>
-    <div class="subcontainer vertical-center flex-container">
+    <div class="flex-container">
       <div class="large-screens">
         <div class="flex-25">
           <div class="col">
             <div class="code">
               <pre>
-             "document_tone": {
-                "tones": [
-                  {
-                    "score": 0.552241,
-                    "tone_id": "sadness",
-                    "tone_name": "Sadness"
-                  },
-                  {
-                    "score": 0.561087,
-                    "tone_id": "joy",
-                    "tone_name": "Joy"
-                  },
-                  {
-                    "score": 0.518802,
-                    "tone_id": "analytical",
-                    "tone_name": "Analytical"
-                  },...
-                ]
-            }
-          </pre
-              >
+        "document_tone": {
+          "tones": [
+            {
+              "score": 0.552241,
+              "tone_id": "sadness",
+              "tone_name": "Sadness"
+            },
+            {
+              "score": 0.561087,
+              "tone_id": "joy",
+              "tone_name": "Joy"
+            },...
+          ]
+        }</pre>
             </div>
             <div class="code">
               <pre>
-            background: linear-gradient(
-              120deg,
-              #64368f 10.36%,
-              #00b4df 34.44%,
-              #b5dcb7 45.27%,
-              #f8ec2d 77.75%,
-              #ef673c 89.58%,
-              #eb3c39 100%
-            );
-          </pre
-              >
+    background: linear-gradient(
+      120deg,
+      #64368f 10.36%,
+      #00b4df 34.44%,
+      #b5dcb7 45.27%,
+      #f8ec2d 77.75%,
+      #ef673c 89.58%,
+      #eb3c39 100%
+    );</pre>
             </div>
           </div>
         </div>
@@ -142,23 +133,19 @@
             </p>
             <div class="code">
               <pre>
-      // Illustrator doesn't recognize "let"
+// Illustrator doesn't recognize "let"
 
-      var color = new RGBColor();
-      color.red = vals[a].colors[0];
-      color.green = vals[a].colors[1];
-      color.blue = vals[a].colors[2];
+var color = new RGBColor();
+color.red = vals[a].colors[0];
+color.green = vals[a].colors[1];
+color.blue = vals[a].colors[2];
 
-      currentRamp += (vals[a].score * 100);
-      
-      var colorOfGradient = new GradientColor();
-      colorOfGradient.gradient = newGradient;
+currentRamp += (vals[a].score * 100);
 
-      var topPath = app.activeDocument...;
-      topPath.filled = true;
-      topPath.fillColor = colorOfGradient;
-          </pre
-              >
+var topPath = app.activeDocument...;
+topPath.filled = true;
+topPath.fillColor = colorOfGradient;
+          </pre>
             </div>
             <p class="description">
               In order to make the book cover, I needed a programmatic way to

@@ -106,13 +106,11 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 img {
   max-height: 70vh;
 }
 .ibm-select.label {
-  margin-top: 80px;
   margin-bottom: -20px;
 }
 </style>
