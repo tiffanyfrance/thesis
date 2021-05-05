@@ -220,7 +220,7 @@ export default {
         confident: 0,
       };
 
-      let data = await d3.json("/data/" + this.book);
+      let data = await d3.json("data/" + this.book);
 
       let sentencesArr = [];
 

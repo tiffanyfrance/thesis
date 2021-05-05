@@ -50,7 +50,7 @@ export default {
     filePath: {
       immediate: true,
       async handler(val) {
-        this.data = await d3.csv("/data/" + val);
+        this.data = await d3.csv("data/" + val);
         this.keys = this.data.columns.includes("trust") ? MCKeys : PDKeys;
         this.buildChart();
       },

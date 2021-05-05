@@ -1,9 +1,5 @@
 module.exports = {
-  'publicPath': '../dist/js',
-  'outputDir': '../dist',
-  'filenameHashing': false,
-  runtimeCompiler: true,
-  'css': {
-    extract: true,
-  },
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/ml-books/'
+    : '/'
 }

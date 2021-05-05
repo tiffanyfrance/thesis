@@ -56,7 +56,7 @@ export default {
     filePath: {
       immediate: true,
       async handler(val) {
-        this.data = await d3.json("/data/" + val);
+        this.data = await d3.json("data/" + val);
         this.buildChart();
       },
     },
