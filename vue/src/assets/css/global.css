@@ -134,6 +134,15 @@ pre {
   padding-bottom: 30px;
 }
 
+.legend-circle {
+  background-color: #eb3c39;
+  min-width: 7px;
+  min-height: 7px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 70px;

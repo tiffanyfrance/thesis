@@ -2,12 +2,11 @@
   <div class="container white-container">
     <h2>Emotion Strength Over Time</h2>
     <h3>
-      Variable line charts work by showing the intensity of an emotion within
-      the line - the thicker the line, the stronger the value. Additionally, the
-      <span class="code"> y-axis</span> ranks the lines by instensity so that
-      the strongest emotion rises to the top. The data was gathered using
-      MeaningCloud's Deep Categoriztion API, which return eight primary emotion
-      labels found in Plutchik’s Wheel of Emotion:
+      What does the emotional landscape of classic novels look like? 
+      Using an emotion recognition API, I analyzed the text 
+      of 26 Project Gutenberg novels published between 1810 and 1925.
+      The classification is based on Plutchik’s Wheel of Emotion
+      and includes the following labels:
       <span class="code">
         [<span style="color: #eb3c39">anger</span>,
         <span style="color: #ef673c">anticipation</span>,
@@ -16,8 +15,12 @@
         <span style="color: #b5dcb7">fear</span>,
         <span style="color: #00b4df">surprise</span>,
         <span style="color: #0775ba">sadness</span>,
-        <span style="color: #64368f">disgust</span>]
+        <span style="color: #64368f">disgust</span>].
       </span>
+      The variable line chart shows intensity of an emotion - 
+      the thicker the line, the stronger the value. The
+      <span class="code"> y-axis</span> ranks the lines by instensity so that
+      the strongest emotion rises to the top.
     </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">

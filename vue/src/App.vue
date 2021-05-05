@@ -3,6 +3,8 @@
   <Hero />
   <MC />
   <MCBook />
+  <MCvsPD />
+  <Emotion />
   <Rainbow />
   <RainbowBook />
   <IBM />
@@ -12,10 +14,8 @@
   <Compare />
   <Conclusion />
   <Corpus />
-  <Emotion />
   <APIs />
-  <MCvsPD />
-  <MCvsPDReflection />
+  <!-- <MCvsPDReflection /> -->
   <!-- <Final /> -->
 </template>
 
@@ -26,7 +26,7 @@ import APIs from "./components/APIs.vue";
 import MC from "./components/MC.vue";
 import MCBook from "./components/MCBook.vue";
 import MCvsPD from "./components/MCvsPD.vue";
-import MCvsPDReflection from "./components/MCvsPDReflection.vue";
+// import MCvsPDReflection from "./components/MCvsPDReflection.vue";
 import IBM from "./components/IBM.vue";
 import IBMBook from "./components/IBMBook.vue";
 import Rainbow from "./components/Rainbow.vue";
@@ -45,7 +45,7 @@ export default {
     MC,
     MCBook,
     MCvsPD,
-    MCvsPDReflection,
+    // MCvsPDReflection,
     IBM,
     IBMBook,
     Rainbow,

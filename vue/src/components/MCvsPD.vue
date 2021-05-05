@@ -2,8 +2,8 @@
   <div class="container white-container">
     <h2>Comparing APIs</h2>
     <h3>
-      MeaningCloud and ParallelDots APIs return similiar emotion labels.
-      MeaningCloud identifies eight emotions:
+      Emotion labels differ based on the model's training. For example,
+      MeaningCloud identifies eight emotions based on Plutchik's Emotion Model:
       <span class="code">
         [<span style="color: #eb3c39">anger</span>,
         <span style="color: #ef673c">anticipation</span>,
@@ -23,10 +23,9 @@
         <span style="color: #0775ba">sadness</span>,
         <span style="color: rgb(152, 108, 155)">bored</span>].
       </span>
-      Below shows differences between the APIs using a streamgraph.
-      The central, flowing baseline, indicates changes over time 
-      including where values start and stop, and the length
-      of duration.
+      Below shows differences between the APIs using a streamgraph. The central,
+      flowing baseline, indicates changes over time including where values start
+      and stop, and the length of duration.
     </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">
@@ -34,25 +33,31 @@
           Select a title:
           <select v-model="book">
             <option value="alice-in-wonderland">Alice in Wonderland</option>
-            <option value="frankenstein">
-              Frankenstein
-            </option>
+            <option value="frankenstein">Frankenstein</option>
             <option value="importance-of-being-ernest">
               The Importance of Being Ernest
             </option>
-            <option value="pride-and-prejudice">
-              Pride and Prejudice
-            </option>
+            <option value="pride-and-prejudice">Pride and Prejudice</option>
             <option value="through-the-looking-glass">
               Through the Looking Glass
             </option>
-            <option value="wuthering-heights">
-              Wuthering Heights
-            </option>
+            <option value="wuthering-heights">Wuthering Heights</option>
           </select>
         </p>
         <div class="flex-50">
-          <h4>API 1: MeaningCloud</h4>
+          <h4>
+            API 1 <br />
+            <span class="code">
+              <span style="background-color: #eb3c39" class="legend-circle"></span>anger&nbsp;
+              <span style="background-color: #ef673c" class="legend-circle"></span>anticipation&nbsp;
+              <span style="background-color: #f8ec2d" class="legend-circle"></span>joy&nbsp;
+              <span style="background-color: #d7e489" class="legend-circle"></span>trust&nbsp;
+              <span style="background-color: #b5dcb7" class="legend-circle"></span>fear&nbsp;
+              <span style="background-color: #00b4df" class="legend-circle"></span>surprise&nbsp;
+              <span style="background-color: #0775ba" class="legend-circle"></span>sadness&nbsp;
+              <span style="background-color: #64368f" class="legend-circle"></span>disgust
+            </span>
+          </h4>
           <VariableArea
             :filePath="filePaths[book].MC"
             :shuffle="false"
@@ -60,7 +65,17 @@
           />
         </div>
         <div class="flex-50">
-          <h4>API 2: ParallelDots</h4>
+          <h4>
+            API 2<br />
+            <span class="code">
+              <span style="background-color: #eb3c39" class="legend-circle"></span>angry&nbsp;
+              <span style="background-color: rgb(247, 168, 59)" class="legend-circle"></span>excited&nbsp;
+              <span style="background-color: #f8ec2d" class="legend-circle"></span>happy&nbsp;
+              <span style="background-color: #b5dcb7" class="legend-circle"></span>fear&nbsp;
+              <span style="background-color: #0775ba" class="legend-circle"></span>sadness&nbsp;
+              <span style="background-color: rgb(152, 108, 155)" class="legend-circle"></span>bored
+            </span>
+          </h4>
           <VariableArea
             :filePath="filePaths[book].PD"
             :shuffle="false"
@@ -92,7 +107,7 @@ export default {
           MC: "MC/through-the-looking-glass.csv",
           PD: "PD/through-the-looking-glass-PD.csv",
         },
-        "frankenstein": {
+        frankenstein: {
           MC: "MC/frankenstein-simple.csv",
           PD: "PD/frankenstein-PD.csv",
         },
@@ -115,9 +130,11 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 img {
   max-height: 70vh;
+}
+h4 .code {
+  font-weight: normal;
 }
 </style>

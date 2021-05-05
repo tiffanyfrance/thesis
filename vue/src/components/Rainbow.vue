@@ -2,17 +2,27 @@
   <div class="container lgray-container">
     <h2>Gradient Based Visualization</h2>
     <h3>
-      IBM Tone Analyzer returns document level results for emotion labeling. In
-      this visualization, each document level emotion percentage was mapped to a
-      color in a gradient. The percentages add up to 100% producing the gradient
-      on the left. These percentages were used both in creating a
-      <span class="code">linear-gradient()</span> and for producing an
-      Illustrator script on the right.
+      My next question was: can I use a gradient in order to 
+      get a feel for the overall tone of a book? 
+      For this, I discovered IBM Watson's Tone Analyzer. 
+      This API returns document level results for emotion labeling. 
+      The API uses the following emotions, labeled here by loosely 
+      following the coloring of Wilcox and Plutchik: 
+      <span class="code">
+        [<span style="color: #64368f">analytical</span>,
+        <span style="color: #0775ba">sadness</span>,
+        <span style="color: #b5dcb7">fear</span>,
+        <span style="color: #d7e489">confident</span>,
+        <span style="color: #f8ec2d">joy</span>,
+        <span style="color: #ef673c">tentative</span>,
+        <span style="color: #eb3c39">anger</span>].
+      </span>
     </h3>
     <div class="flex-container">
       <div class="large-screens">
         <div class="flex-25">
           <div class="col">
+            <h5>Sample Output</h5>
             <div class="code">
               <pre>
         "document_tone": {
@@ -30,6 +40,7 @@
           ]
         }</pre>
             </div>
+            <h5>CSS Rendering</h5>
             <div class="code">
               <pre>
     background: linear-gradient(
@@ -124,12 +135,14 @@
         </div>
         <div class="flex-25">
           <div class="col">
+            <h5>Automating with Illustrator Script</h5>
             <p class="description">
-              The output of Tone Analyzer for each emotion was divided by the
-              total in order to get a percentage of the whole. Each value was
-              assigned it's associated color with a "stop value" as the
-              percentage. The values were culmative, with the final value being
-              100%.
+              In order to make the book cover, I needed a programmatic way to
+              create a gradient in Illustrator. Illustrator allows you to create
+              scripts in javascript and run them from the program. After much
+              googling and tweaking, I was able to write a script to auto
+              generate a gradient with accurate rampPoints representing the data
+              distribution in the book rendering below.
             </p>
             <div class="code">
               <pre>
@@ -147,14 +160,7 @@ topPath.filled = true;
 topPath.fillColor = colorOfGradient;
           </pre>
             </div>
-            <p class="description">
-              In order to make the book cover, I needed a programmatic way to
-              create a gradient in Illustrator. Illustrator allows you to create
-              scripts in javascript and run them from the program. After much
-              googling and tweaking, I was able to write a script to auto
-              generate a gradient with accurate rampPoints representing the data
-              distribution in the book rendering below.
-            </p>
+            
           </div>
         </div>
       </div>
@@ -185,7 +191,10 @@ export default {
   width: calc(100% - 40px);
 }
 .flex-25 .col {
-  padding-top: 72px;
+  padding-top: 70px;
+}
+h5 {
+  margin: 5px 0;
 }
 .code {
   // width: 80%;
@@ -205,7 +214,8 @@ export default {
 }
 .gradient {
   width: calc(100% - 70px);
-  height: calc(100vh - 360px);
+  height: calc(100% - 70px);
+  min-height: 560px;
   background: linear-gradient(
     120deg,
     #64368f 10.36%,

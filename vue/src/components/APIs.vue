@@ -1,6 +1,6 @@
 <template>
-  <div class="container lgray-container">
-    <h2>APIs</h2>
+  <div class="container white-container">
+    <h2>APIs Used</h2>
     <h3>
       The psychoanalytic field lacks an official consensus on how to categorize
       human emotions, however data scientists often use the schemas based on the

@@ -1,5 +1,5 @@
 <template>
-  <div id="corpus" class="container white-container">
+  <div id="corpus" class="container lgray-container">
     <h2>About this Project</h2>
     <h3>
       The initial goal was to include 100 out of print Project Gutenberg novels
