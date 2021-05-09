@@ -6,6 +6,9 @@
       The final step in the process was to prepare the text 
       by typesetting the content in InDesign. Once this was 
       complete I used Barnes and Nobels for a printing service.
+      These books are available for purchase. A portion of the 
+      revenue will be donated back to Project Gutenberg in support
+      of their mission. 
     </h3>
     <div class="subcontainer vertical-center flexbox">
       <div class="large-screens">
@@ -29,23 +32,25 @@
           <div class="flex-25">
           <h4>Alice in Wonderland</h4>
             <img src="@/assets/bn/bn-alice.png" alt="Purchase Alice in Wonderland at Barnes and Nobles"><br /><br />
-            <a href="https://www.barnesandnoble.com/w?ean=9781666270631" target="_blank" class="button">
+            <a href="https://www.barnesandnoble.com/w?ean=9781666283822" target="_blank" class="button">
             View at Barnes and Nobles</a>
           </div>
           <div class="flex-25">
-          <h4>Wuthering Heights</h4>
-            <img src="@/assets/bn/bn-alice.png" alt="Alice in Wonderland Barnes and Nobles"><br /><br />
-            <button>View at Barnes and Nobles</button>
+          <h4>Frankenstein</h4>
+            <img src="@/assets/frankenstein.png" alt="Purchase Frankenstein at Barnes and Nobles"><br /><br />
+            <a href="https://www.barnesandnoble.com/w?ean=9781666283785">
+            View at Barnes and Nobles
+            </a>
+          </div>
+          <div class="flex-25">
+          <h4>Pride and Prejudice</h4>
+            <img src="@/assets/pride.png" alt="Purchase Pride and Prejudice at Barnes and Nobles"><br /><br />
+            <a href="https://www.barnesandnoble.com/w?ean=9781666283891">View at Barnes and Nobles</a>
           </div>
           <div class="flex-25">
           <h4>The War of the Worlds</h4>
-            <img src="@/assets/bn/bn-alice.png" alt="Alice in Wonderland Barnes and Nobles"><br /><br />
-            <button>View at Barnes and Nobles</button>
-          </div>
-          <div class="flex-25">
-          <h4>The War of the Worlds</h4>
-            <img src="@/assets/bn/bn-alice.png" alt="Alice in Wonderland Barnes and Nobles"><br /><br />
-            <button>View at Barnes and Nobles</button>
+            <img src="@/assets/war.png" alt="Purchase The War of the Worlds at Barnes and Nobles"><br /><br />
+            <a href="https://www.barnesandnoble.com/w?ean=9781666285413">View at Barnes and Nobles</a>
           </div>
         <!-- </div> -->
       </div>   
