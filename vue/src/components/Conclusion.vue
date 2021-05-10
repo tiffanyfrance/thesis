@@ -38,19 +38,19 @@
           <div class="flex-25">
           <h4>Frankenstein</h4>
             <img src="@/assets/frankenstein.png" alt="Purchase Frankenstein at Barnes and Nobles"><br /><br />
-            <a href="https://www.barnesandnoble.com/w?ean=9781666283785">
+            <a href="https://www.barnesandnoble.com/w?ean=9781666283785" target="_blank" class="button">
             View at Barnes and Nobles
             </a>
           </div>
           <div class="flex-25">
           <h4>Pride and Prejudice</h4>
             <img src="@/assets/pride.png" alt="Purchase Pride and Prejudice at Barnes and Nobles"><br /><br />
-            <a href="https://www.barnesandnoble.com/w?ean=9781666283891">View at Barnes and Nobles</a>
+            <a href="https://www.barnesandnoble.com/w?ean=9781666283891" target="_blank" class="button">View at Barnes and Nobles</a>
           </div>
           <div class="flex-25">
           <h4>The War of the Worlds</h4>
             <img src="@/assets/war.png" alt="Purchase The War of the Worlds at Barnes and Nobles"><br /><br />
-            <a href="https://www.barnesandnoble.com/w?ean=9781666285413">View at Barnes and Nobles</a>
+            <a href="https://www.barnesandnoble.com/w?ean=9781666285413" target="_blank" class="button">View at Barnes and Nobles</a>
           </div>
         <!-- </div> -->
       </div>   

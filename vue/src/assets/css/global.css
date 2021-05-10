@@ -119,6 +119,9 @@ p {
 .no-margin-top {
   margin-top: 0px;
 }
+.nobr {
+  white-space: nowrap;
+}
 pre {
   text-align: left;
   background: #333;

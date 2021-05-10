@@ -338,10 +338,33 @@
       "metadata" : {
         "timeAdded" : "20210509T035635.495749"
       }
+    },
+    {
+      "id" : 14,
+      "src" : "./media/1620672799.489233/DSC_0308.JPG",
+      "rect" : [0, 0, 4928, 3264],
+      "lastMod" : "20110117T175630",
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 600,
+          "trackRect" : [0, 0, 4928, 3264],
+          "sampleRate" : 0,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20210510T185211.825436"
+      }
     }
   ],
   "timeline" : {
-    "id" : 14,
+    "id" : 15,
     "sceneTrack" : {
       "scenes" : [
         {
@@ -351,7 +374,7 @@
                 "trackIndex" : 0,
                 "medias" : [
                   {
-                    "id" : 15,
+                    "id" : 16,
                     "_type" : "StitchedMedia",
                     "minMediaStart" : 0,
                     "attributes" : {
@@ -438,7 +461,7 @@
                     },
                     "medias" : [
                         {
-                          "id" : 16,
+                          "id" : 17,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -510,7 +533,7 @@
                           }
                         },
                         {
-                          "id" : 17,
+                          "id" : 18,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -582,7 +605,7 @@
                           }
                         },
                         {
-                          "id" : 18,
+                          "id" : 19,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -654,7 +677,7 @@
                           }
                         },
                         {
-                          "id" : 19,
+                          "id" : 20,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -726,7 +749,7 @@
                           }
                         },
                         {
-                          "id" : 20,
+                          "id" : 21,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -798,7 +821,7 @@
                           }
                         },
                         {
-                          "id" : 21,
+                          "id" : 22,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -870,7 +893,7 @@
                           }
                         },
                         {
-                          "id" : 22,
+                          "id" : 23,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -942,7 +965,7 @@
                           }
                         },
                         {
-                          "id" : 23,
+                          "id" : 24,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1014,7 +1037,7 @@
                           }
                         },
                         {
-                          "id" : 24,
+                          "id" : 25,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1086,7 +1109,7 @@
                           }
                         },
                         {
-                          "id" : 25,
+                          "id" : 26,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1158,7 +1181,7 @@
                           }
                         },
                         {
-                          "id" : 26,
+                          "id" : 27,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1230,7 +1253,7 @@
                           }
                         },
                         {
-                          "id" : 27,
+                          "id" : 28,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1302,7 +1325,7 @@
                           }
                         },
                         {
-                          "id" : 28,
+                          "id" : 29,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1374,7 +1397,7 @@
                           }
                         },
                         {
-                          "id" : 29,
+                          "id" : 30,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1446,7 +1469,7 @@
                           }
                         },
                         {
-                          "id" : 30,
+                          "id" : 31,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1518,7 +1541,7 @@
                           }
                         },
                         {
-                          "id" : 31,
+                          "id" : 32,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1590,7 +1613,7 @@
                           }
                         },
                         {
-                          "id" : 32,
+                          "id" : 33,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1662,7 +1685,7 @@
                           }
                         },
                         {
-                          "id" : 33,
+                          "id" : 34,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1734,7 +1757,7 @@
                           }
                         },
                         {
-                          "id" : 34,
+                          "id" : 35,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -1829,7 +1852,7 @@
                 "trackIndex" : 1,
                 "medias" : [
                   {
-                    "id" : 35,
+                    "id" : 36,
                     "_type" : "StitchedMedia",
                     "minMediaStart" : 0,
                     "attributes" : {
@@ -1860,7 +1883,7 @@
                     },
                     "medias" : [
                         {
-                          "id" : 36,
+                          "id" : 37,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -1883,7 +1906,7 @@
                           }
                         },
                         {
-                          "id" : 37,
+                          "id" : 38,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -1906,7 +1929,7 @@
                           }
                         },
                         {
-                          "id" : 38,
+                          "id" : 39,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -1929,7 +1952,7 @@
                           }
                         },
                         {
-                          "id" : 39,
+                          "id" : 40,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -1952,7 +1975,7 @@
                           }
                         },
                         {
-                          "id" : 40,
+                          "id" : 41,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -1975,7 +1998,7 @@
                           }
                         },
                         {
-                          "id" : 41,
+                          "id" : 42,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -1998,7 +2021,7 @@
                           }
                         },
                         {
-                          "id" : 42,
+                          "id" : 43,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2021,7 +2044,7 @@
                           }
                         },
                         {
-                          "id" : 43,
+                          "id" : 44,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2044,7 +2067,7 @@
                           }
                         },
                         {
-                          "id" : 44,
+                          "id" : 45,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2067,7 +2090,7 @@
                           }
                         },
                         {
-                          "id" : 45,
+                          "id" : 46,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2090,7 +2113,7 @@
                           }
                         },
                         {
-                          "id" : 46,
+                          "id" : 47,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2113,7 +2136,7 @@
                           }
                         },
                         {
-                          "id" : 47,
+                          "id" : 48,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2136,7 +2159,7 @@
                           }
                         },
                         {
-                          "id" : 48,
+                          "id" : 49,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2159,7 +2182,7 @@
                           }
                         },
                         {
-                          "id" : 49,
+                          "id" : 50,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2182,7 +2205,7 @@
                           }
                         },
                         {
-                          "id" : 50,
+                          "id" : 51,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2205,7 +2228,7 @@
                           }
                         },
                         {
-                          "id" : 51,
+                          "id" : 52,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2228,7 +2251,7 @@
                           }
                         },
                         {
-                          "id" : 52,
+                          "id" : 53,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2251,7 +2274,7 @@
                           }
                         },
                         {
-                          "id" : 53,
+                          "id" : 54,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2274,7 +2297,7 @@
                           }
                         },
                         {
-                          "id" : 54,
+                          "id" : 55,
                           "_type" : "AMFile",
                           "src" : 2,
                           "trackNumber" : 1,
@@ -2319,7 +2342,7 @@
                 "trackIndex" : 2,
                 "medias" : [
                   {
-                    "id" : 55,
+                    "id" : 56,
                     "_type" : "IMFile",
                     "src" : 3,
                     "trackNumber" : 0,
@@ -2358,95 +2381,6 @@
                     }
                   },
                   {
-                    "id" : 56,
-                    "_type" : "IMFile",
-                    "src" : 9,
-                    "trackNumber" : 0,
-                    "trimStartSum" : 41,
-                    "attributes" : {
-                      "ident" : "Pasted Image"
-                    },
-                    "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : 34.4485274230002,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : 120.0,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 1.01645676376035,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 1.01645676376035,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop0" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop1" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop2" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop3" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop0" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop1" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop2" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop3" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      }
-                    },
-                    "effects" : [
-
-                    ],
-                    "start" : 3846,
-                    "duration" : 208,
-                    "mediaStart" : 0,
-                    "mediaDuration" : 1,
-                    "scalar" : 1,
-                    "metadata" : {
-                      "clipSpeedAttribute" : false,
-                      "default-scale" : "0.753138",
-                      "effectApplied" : "none",
-                      "lockAspectRatio" : true
-                    },
-                    "animationTracks" : {
-
-                    }
-                  },
-                  {
                     "id" : 57,
                     "_type" : "IMFile",
                     "src" : 13,
@@ -2456,56 +2390,16 @@
                       "ident" : "Pasted Image"
                     },
                     "parameters" : {
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 0.5,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 0.5,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop0" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop1" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop2" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop3" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop0" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop1" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop2" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop3" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      }
+                      "scale0" : 0.5,
+                      "scale1" : 0.5,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
                     },
                     "effects" : [
 
@@ -2815,14 +2709,63 @@
                       "ident" : "Pasted Image"
                     },
                     "parameters" : {
+                      "scale0" : 0.5,
+                      "scale1" : 0.5,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 2146,
+                    "duration" : 180,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-scale" : "0.5",
+                      "effectApplied" : "none",
+                      "lockAspectRatio" : true
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 64,
+                    "_type" : "IMFile",
+                    "src" : 14,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "DSC_0308"
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : 201.412808346971,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : 199.824905623986,
+                        "interp" : "eioe"
+                      },
                       "scale0" : {
                         "type" : "double",
-                        "defaultValue" : 0.5,
+                        "defaultValue" : 0.490370163271512,
                         "interp" : "eioe"
                       },
                       "scale1" : {
                         "type" : "double",
-                        "defaultValue" : 0.5,
+                        "defaultValue" : 0.490370163271512,
                         "interp" : "eioe"
                       },
                       "sourceCrop0" : {
@@ -2869,14 +2812,14 @@
                     "effects" : [
 
                     ],
-                    "start" : 2146,
-                    "duration" : 180,
+                    "start" : 3848,
+                    "duration" : 206,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
-                      "default-scale" : "0.5",
+                      "default-scale" : "0.330882",
                       "effectApplied" : "none",
                       "lockAspectRatio" : true
                     },
@@ -2885,7 +2828,7 @@
                     }
                   },
                   {
-                    "id" : 64,
+                    "id" : 65,
                     "_type" : "ScreenVMFile",
                     "src" : 7,
                     "trackNumber" : 0,
@@ -2963,7 +2906,7 @@
                     }
                   },
                   {
-                    "id" : 65,
+                    "id" : 66,
                     "_type" : "IMFile",
                     "src" : 8,
                     "trackNumber" : 0,
@@ -2972,56 +2915,16 @@
                       "ident" : "Pasted Image"
                     },
                     "parameters" : {
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 0.5,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 0.5,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop0" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop1" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop2" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "sourceCrop3" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop0" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop1" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop2" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      },
-                      "geometryCrop3" : {
-                        "type" : "double",
-                        "defaultValue" : 0.0,
-                        "interp" : "eioe"
-                      }
+                      "scale0" : 0.5,
+                      "scale1" : 0.5,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
                     },
                     "effects" : [
 

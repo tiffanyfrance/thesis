@@ -48,14 +48,14 @@
           <h4>
             API 1 <br />
             <span class="code">
-              <span style="background-color: #eb3c39" class="legend-circle"></span>anger&nbsp;
-              <span style="background-color: #ef673c" class="legend-circle"></span>anticipation&nbsp;
-              <span style="background-color: #f8ec2d" class="legend-circle"></span>joy&nbsp;
-              <span style="background-color: #d7e489" class="legend-circle"></span>trust&nbsp;
-              <span style="background-color: #b5dcb7" class="legend-circle"></span>fear&nbsp;
-              <span style="background-color: #00b4df" class="legend-circle"></span>surprise&nbsp;
-              <span style="background-color: #0775ba" class="legend-circle"></span>sadness&nbsp;
-              <span style="background-color: #64368f" class="legend-circle"></span>disgust
+              <span class="nobr"><span style="background-color: #eb3c39" class="legend-circle"></span>anger&nbsp;</span>
+              <span class="nobr"><span style="background-color: #ef673c" class="legend-circle"></span>anticipation&nbsp;</span>
+              <span class="nobr"><span style="background-color: #f8ec2d" class="legend-circle"></span>joy&nbsp;</span>
+              <span class="nobr"><span style="background-color: #d7e489" class="legend-circle"></span>trust&nbsp;</span>
+              <span class="nobr"><span style="background-color: #b5dcb7" class="legend-circle"></span>fear&nbsp;</span>
+              <span class="nobr"><span style="background-color: #00b4df" class="legend-circle"></span>surprise&nbsp;</span>
+              <span class="nobr"><span style="background-color: #0775ba" class="legend-circle"></span>sadness&nbsp;</span>
+              <span class="nobr"><span style="background-color: #64368f" class="legend-circle"></span>disgust</span>
             </span>
           </h4>
           <VariableArea
@@ -68,12 +68,12 @@
           <h4>
             API 2<br />
             <span class="code">
-              <span style="background-color: #eb3c39" class="legend-circle"></span>angry&nbsp;
-              <span style="background-color: rgb(247, 168, 59)" class="legend-circle"></span>excited&nbsp;
-              <span style="background-color: #f8ec2d" class="legend-circle"></span>happy&nbsp;
-              <span style="background-color: #b5dcb7" class="legend-circle"></span>fear&nbsp;
-              <span style="background-color: #0775ba" class="legend-circle"></span>sadness&nbsp;
-              <span style="background-color: rgb(152, 108, 155)" class="legend-circle"></span>bored
+              <span class="nobr"><span style="background-color: #eb3c39" class="legend-circle"></span>angry&nbsp;</span>
+              <span class="nobr"><span style="background-color: rgb(247, 168, 59)" class="legend-circle"></span>excited&nbsp;</span>
+              <span class="nobr"><span style="background-color: #f8ec2d" class="legend-circle"></span>happy&nbsp;</span>
+              <span class="nobr"><span style="background-color: #b5dcb7" class="legend-circle"></span>fear&nbsp;</span>
+              <span class="nobr"><span style="background-color: #0775ba" class="legend-circle"></span>sadness&nbsp;</span>
+              <span class="nobr"><span style="background-color: rgb(152, 108, 155)" class="legend-circle"></span>bored</span>
             </span>
           </h4>
           <VariableArea
@@ -136,5 +136,8 @@ img {
 }
 h4 .code {
   font-weight: normal;
+}
+.label {
+  padding-bottom: 0;
 }
 </style>
