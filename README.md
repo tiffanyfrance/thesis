@@ -1,8 +1,11 @@
 <img src="preview.png" style="width: 100%" />
 
-# Literary Book Bindings
+# Emotion Driven Literary Bindings
 
 ## Generating Book Cover Art Using Emotion Detected Labels in Classical Literature
+
+### URL
+https://tiffanyfrance.com/ml-books/ 
 
 ### Abstract
 This project uses machine learning emotion classification processes in order to create emotionally representative data from Project Gutenberg public domain novels. The data is then fitted into a visualization that is further rendered into book covers for the analyzed pieces. Both proprietary and hand crafted APIs are used to analyze emotions found in the corpuses of the 25 high ranking books from Project Gutenberg. Multiple emotion recognition models are evaluated for accuracy and value within the literary space. The machine learning models are then compared to human evaluations of emotions, based on existing psychoanalytic research. Results indicate that machine learning models are able to adequately predict the emotions in novels and generate supporting book cover art.
