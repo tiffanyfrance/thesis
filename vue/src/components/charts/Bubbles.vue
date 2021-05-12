@@ -65,7 +65,7 @@ export default {
         deltaX,
         topY,
         true,
-        d3.interpolateHsl("green", "blue")
+        d3.interpolateHsl("#DCE775", "#397A4C")
       );
 
       buildCircles(
@@ -157,6 +157,16 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
         .style("text-anchor", "middle")
         .text("greater than 7");
 
+        textGroup
+        .append("text")
+        .attr("dy", "0.25em")
+        .style(
+          "transform",
+          `translate(${(margin.left / 2) - 10}px, ${midPoint}px) rotate(-90deg)`
+        )
+        .style("text-anchor", "middle")
+        .text("(positive sentiment)");
+
       let textBBox = textGroup.select("text").node().getBBox();
 
       textGroup
@@ -165,10 +175,10 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
           "transform",
           `translate(${margin.left / 2}px, ${midPoint}px) rotate(-90deg)`
         )
-        .attr("x", textBBox.x - 10)
-        .attr("y", textBBox.y)
-        .attr("width", textBBox.width + 20)
-        .attr("height", textBBox.height)
+        .attr("x", textBBox.x - 30)
+        .attr("y", textBBox.y - 20)
+        .attr("width", textBBox.width + 60)
+        .attr("height", textBBox.height + 20)
         .attr("fill", "white");
     } else {
       lineGroup
@@ -198,6 +208,16 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
         )
         .style("text-anchor", "middle")
         .text("less than 3");
+      
+      textGroup
+        .append("text")
+        .attr("dy", "0.25em")
+        .style(
+          "transform",
+          `translate(${(margin.left / 2) - 10}px, ${midPoint}px) rotate(-90deg)`
+        )
+        .style("text-anchor", "middle")
+        .text("(negative sentiment)");
 
       let textBBox = textGroup.select("text").node().getBBox();
 
@@ -207,10 +227,10 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
           "transform",
           `translate(${margin.left / 2}px, ${midPoint}px) rotate(-90deg)`
         )
-        .attr("x", textBBox.x - 10)
-        .attr("y", textBBox.y)
-        .attr("width", textBBox.width + 20)
-        .attr("height", textBBox.height)
+        .attr("x", textBBox.x - 30)
+        .attr("y", textBBox.y - 20)
+        .attr("width", textBBox.width + 60)
+        .attr("height", textBBox.height + 20)
         .attr("fill", "white");
     }
   }

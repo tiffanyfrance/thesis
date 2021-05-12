@@ -227,4 +227,14 @@ h5 {
   );
   float: left;
 }
+@media (max-width: 768px) {
+  .flex-25 .col {
+    padding-top: 10px;
+  }
+  .description {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
 </style>

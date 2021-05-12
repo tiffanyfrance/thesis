@@ -81,4 +81,14 @@ img {
   text-align: justify;
   margin-bottom: 60px;
 }
+@media (max-width: 768px) {
+  img {
+     margin: 0px 0px 50px;
+  }
+  .description {
+    width: 100% !important;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+}
 </style>

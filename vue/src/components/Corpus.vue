@@ -108,12 +108,6 @@ img {
   margin: 0 auto;
 }
 @media (max-width: 768px) {
-  .description {
-    width: 80vw;
-  }
-  h3 {
-    margin-bottom: 50px;
-  }
   h4 {
     margin-top: 20px;
     margin-bottom: 10px;

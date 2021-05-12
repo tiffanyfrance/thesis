@@ -1,12 +1,11 @@
 <template>
   <div class="container white-container">
-    <h2>APIs Used</h2>
+    <h2>APIs Referenced</h2>
     <h3>
-      The psychoanalytic field lacks an official consensus on how to categorize
-      human emotions, however data scientists often use the schemas based on the
-      work of several prominent researchers, including Plutchik, Ekman, Parrot,
-      Tomkins, and Wilcox. The following models also contain color-emotion
-      assignment which are used in this project.
+      Several APIs were referenced during the exectution of this project. 
+      Some APIs were used to collect data, others were used 
+      in part (for instance the hedonometer list), while others 
+      were simply referenced for learning purposes. 
     </h3>
     <div class="subcontainer vertical-center flex-container">
       <div class="large-screens">

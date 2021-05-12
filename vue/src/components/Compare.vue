@@ -69,6 +69,9 @@
             </option>
           </select>
           <p class="quote">{{ sentence.text }}</p>
+          <div>
+            <button @click="nextSentence">next sentence in selected book</button>
+          </div>
           <p></p>
           <div id="sliders">
             <div class="slider">
@@ -155,9 +158,6 @@
               />
               <label for="confident">Confident</label>
             </div>
-          </div>
-          <div>
-            <button @click="nextSentence">Next</button>
           </div>
         </div>
         <div class="flex-50">
@@ -313,5 +313,19 @@ input[type="range"]:focus {
 
 input[type="range"]:focus::-webkit-slider-runnable-track {
   background: #666;
+}
+svg {
+  margin-top: 80px;
+}
+@media (max-width: 768px) {
+  .quote {
+    margin: 40px 0px;
+  }
+  #sliders {
+    margin: 40px 0px;
+  }
+  svg {
+  margin-top: 20px;
+}
 }
 </style>
