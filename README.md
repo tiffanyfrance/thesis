@@ -16,4 +16,4 @@ The final outcome of this project will be printable manuscripts with custom gene
 <img src="1.jpg" style="width: 100%">
 <img src="2.jpg" style="width: 100%">
 <img src="3.png" style="width: 100%">
-<img src="5.png" style="width: 100%">
+<img src="5.jpg" style="width: 100%">
