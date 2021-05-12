@@ -12,4 +12,8 @@ This project uses machine learning emotion classification processes in order to 
 
 The final outcome of this project will be printable manuscripts with custom generated covers. The visualizations are built using D3js and data storytelling techniques. The charts will be imported into InDesign for final production and typesetting. In order to avoid copyright issues, all books used are in the public domain, with original publish dates between 1800 and 1925. The physical book will contain the text of the original author, as well as accompanying text and diagrams provided from this project.
 
-
+### Preview
+<img src="1.jpg" style="width: 100%">
+<img src="2.jpg" style="width: 100%">
+<img src="3.png" style="width: 100%">
+<img src="4.png" style="width: 100%">
