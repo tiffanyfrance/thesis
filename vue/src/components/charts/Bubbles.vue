@@ -87,6 +87,14 @@ export default {
         .style("text-anchor", "middle")
         .style("fill", "#333")
         .text((d, i) => (data.length < 100 || (i + 1) % 5 === 0 ? i + 1 : ""));
+
+      svg
+        .append("text")
+        .attr("x", margin.left + (width - margin.left - margin.right) / 2)
+        .attr("y", height - 25)
+        .style("text-anchor", "middle")
+        .style("font-size", "12px")
+        .text("chapters");
     },
   },
 };
@@ -157,12 +165,12 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
         .style("text-anchor", "middle")
         .text("greater than 7");
 
-        textGroup
+      textGroup
         .append("text")
         .attr("dy", "0.25em")
         .style(
           "transform",
-          `translate(${(margin.left / 2) - 10}px, ${midPoint}px) rotate(-90deg)`
+          `translate(${margin.left / 2 - 10}px, ${midPoint}px) rotate(-90deg)`
         )
         .style("text-anchor", "middle")
         .text("(positive sentiment)");
@@ -208,13 +216,13 @@ function buildCircles(svg, data, deltaX, y, isUpArrow, color) {
         )
         .style("text-anchor", "middle")
         .text("less than 3");
-      
+
       textGroup
         .append("text")
         .attr("dy", "0.25em")
         .style(
           "transform",
-          `translate(${(margin.left / 2) - 10}px, ${midPoint}px) rotate(-90deg)`
+          `translate(${margin.left / 2 - 10}px, ${midPoint}px) rotate(-90deg)`
         )
         .style("text-anchor", "middle")
         .text("(negative sentiment)");

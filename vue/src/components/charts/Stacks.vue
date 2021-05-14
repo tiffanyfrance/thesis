@@ -48,7 +48,7 @@ export default {
       const height = 580;
       const spacing = 1;
       const halfSpacing = spacing / 2;
-      const margin = { top: -30, right: 10, bottom: 40, left: 10 };
+      const margin = { top: -30, right: 10, bottom: 50, left: 10 };
       const data = this.data;
 
       let scoreRange = {
@@ -173,6 +173,14 @@ export default {
             (scoreRange[d.toneId].max - scoreRange[d.toneId].min);
           return d3.rgb(colors[d.toneId](t)).hex();
         });
+
+      svg
+        .append("text")
+        .attr("x", margin.left + (width - margin.left - margin.right) / 2)
+        .attr("y", height - 5)
+        .style("text-anchor", "middle")
+        .style("font-size", "12px")
+        .text("chapters");
     },
   },
 };
