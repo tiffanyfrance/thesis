@@ -14,7 +14,7 @@
   <Compare />
   <Conclusion />
   <Corpus />
-  <APIs />
+  <!-- <APIs /> -->
   <!-- <MCvsPDReflection /> -->
   <!-- <Final /> -->
 </template>
@@ -22,7 +22,7 @@
 <script>
 import Hero from "./components/Hero.vue";
 import Corpus from "./components/Corpus.vue";
-import APIs from "./components/APIs.vue";
+// import APIs from "./components/APIs.vue";
 import MC from "./components/MC.vue";
 import MCBook from "./components/MCBook.vue";
 import MCvsPD from "./components/MCvsPD.vue";
@@ -56,7 +56,7 @@ export default {
     Conclusion,
     Corpus,
     Emotion,
-    APIs,
+    // APIs,
     // Final,
   },
   data() {

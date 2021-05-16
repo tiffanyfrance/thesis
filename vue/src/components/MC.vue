@@ -101,8 +101,4 @@ export default {
 img {
   max-height: 70vh;
 }
-// .code span {
-//   font-weight: 500;
-//   text-transform: uppercase;
-// }
 </style>
