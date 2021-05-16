@@ -21,7 +21,7 @@ The final outcome of this project will be printable manuscripts with custom gene
 ### Acknowledgements 
 Thank you to my partner and my two daughters for your continued support.
 
-Thank you to Project Gutenberg for their nobel mission to disseminate 
+Thank you to Project Gutenberg for their noble mission to disseminate 
 literary works of art for free consumption.
 
 Thank you to my fellow classmates at Parson's School of Design. It 
