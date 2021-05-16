@@ -37,7 +37,7 @@
           >
             <img
               src="@/assets/bn/bn-alice.png"
-              alt="Purchase Alice in Wonderland at Barnes and Nobles"
+              alt="Purchase Alice in Wonderland at Barnes and Noble"
             />
           </a>
           <br /><br />
@@ -46,7 +46,7 @@
             target="_blank"
             class="button"
           >
-            Available at Barnes and Nobles</a
+            Available at Barnes and Noble</a
           >
         </div>
         <div class="flex-25">
@@ -58,7 +58,7 @@
           >
             <img
               src="@/assets/frankenstein.png"
-              alt="Purchase Frankenstein at Barnes and Nobles"
+              alt="Purchase Frankenstein at Barnes and Noble"
             />
           </a
           ><br /><br />
@@ -67,7 +67,7 @@
             target="_blank"
             class="button"
           >
-            Available at Barnes and Nobles </a
+            Available at Barnes and Noble </a
           ><br />or<br />
           <a
             href="https://www.amazon.com/gp/product/1666283789/ref=crt_ewc_img_srh_1?ie=UTF8&psc=1&smid=ATVPDKIKX0DER"
@@ -86,14 +86,14 @@
           >
           <img
             src="@/assets/pride.png"
-            alt="Purchase Pride and Prejudice at Barnes and Nobles"
+            alt="Purchase Pride and Prejudice at Barnes and Noble"
           /></a>
           <br /><br />
           <a
             href="https://www.barnesandnoble.com/w?ean=9781666283891"
             target="_blank"
             class="button"
-            >Available at Barnes and Nobles</a
+            >Available at Barnes and Noble</a
           >
           <br />
         </div>
@@ -106,14 +106,14 @@
           >
           <img
             src="@/assets/war.png"
-            alt="Purchase The War of the Worlds at Barnes and Nobles"
+            alt="Purchase The War of the Worlds at Barnes and Noble"
           />
           </a><br /><br />
           <a
             href="https://www.barnesandnoble.com/w?ean=9781666285413"
             target="_blank"
             class="button"
-            >Available at Barnes and Nobles</a
+            >Available at Barnes and Noble</a
           >
         </div>
         <!-- </div> -->
