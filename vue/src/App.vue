@@ -14,6 +14,7 @@
   <Compare />
   <Conclusion />
   <Corpus />
+  <HeroVideo />
   <!-- <APIs /> -->
   <!-- <MCvsPDReflection /> -->
   <!-- <Final /> -->
@@ -21,6 +22,7 @@
 
 <script>
 import Hero from "./components/Hero.vue";
+import HeroVideo from "./components/HeroVideo.vue";
 import Corpus from "./components/Corpus.vue";
 // import APIs from "./components/APIs.vue";
 import MC from "./components/MC.vue";
@@ -56,6 +58,7 @@ export default {
     Conclusion,
     Corpus,
     Emotion,
+    HeroVideo,
     // APIs,
     // Final,
   },
